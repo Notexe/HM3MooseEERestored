@@ -1,0 +1,9 @@
+{
+	"name": "HM3MooseEERestored",
+	"description": "Restores the moose easter egg in Marrakesh",
+	"authors": ["Notex"],
+	"contentFolder": "content",
+	"modVersion": 1,
+	"updateCheck": "https://hitman-resources.netlify.app/framework/updates/exampleMod.json",
+	"frameworkVersion": 0.3
+}
