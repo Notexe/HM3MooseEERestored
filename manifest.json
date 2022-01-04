@@ -1,9 +1,10 @@
 {
+	"id": "Notex.HM3MooseEERestored",
 	"name": "HM3MooseEERestored",
 	"description": "Restores the moose easter egg in Marrakesh",
 	"authors": ["Notex"],
 	"contentFolder": "content",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"updateCheck": "https://framework.notex.app/updates/HM3MooseEERestored.json",
 	"frameworkVersion": "1.0.0"
 }

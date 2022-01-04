@@ -1,1 +1,2133 @@
-{"tempHash":"00A0AF5FC89FF2BE","tbluHash":"0052E4A4935EEF6E","patch":[{"op":"add","path":"/entities/abcddc9910e81f2e","value":{"parent":{"ref":"5a924242934896d7","exposedEntity":"","externalScene":"SPECIAL: None","entityID":"ffffffffffffffff"},"name":"EasterElk","template":"[modules:/zentity.class].pc_entitytype","blueprint":"[modules:/zentity.class].pc_entityblueprint","properties":[],"postInitProperties":[],"editorOnly":false,"platformSpecificPropertyValues":[],"entityID":"abcddc9910e81f2e"}},{"op":"add","path":"/entities/abcdb214cac79f9a","value":{"parent":{"ref":"abcddc9910e81f2e","exposedEntity":"","externalScene":"SPECIAL: None","entityID":"ffffffffffffffff"},"name":"SetPiece_Activator_DinnerBell","template":"[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_dinnerbell.entitytemplate].entitytype,[modules:/zspatialsaveaspect.class].entitytype).pc_entitytype","blueprint":"[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_dinnerbell.entitytemplate].entitytype,[modules:/zspatialsaveaspect.class].entitytype).pc_entityblueprint","properties":[{"name":"m_mTransform","type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":-8.7716798782348633,"y":-145.66020202636719,"z":13.436280250549316}}},{"name":"m_sId","type":"ZGuid","value":"9f70c074-5bfd-4122-bf55-fcd989f0b68a"},{"name":"m_eRoomBehaviour","type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_DYNAMIC"},{"name":"m_bVisible","type":"bool","value":false}],"postInitProperties":[{"name":"m_eidParent","type":"SEntityTemplateReference","value":"fffffffffffffffe"}],"editorOnly":false,"platformSpecificPropertyValues":[],"entityID":"abcdb214cac79f9a","events":[{"onEvent":"OnHit","shouldTrigger":"SetTrue","onEntity":"abcd9e8b1abc1cc6"}]}},{"op":"add","path":"/entities/abcdecc27d681c13","value":{"parent":{"ref":"abcddc9910e81f2e","exposedEntity":"","externalScene":"SPECIAL: None","entityID":"ffffffffffffffff"},"name":"SetPiece_Activator_DinnerBell01","template":"[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_dinnerbell.entitytemplate].entitytype,[modules:/zspatialsaveaspect.class].entitytype).pc_entitytype","blueprint":"[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_dinnerbell.entitytemplate].entitytype,[modules:/zspatialsaveaspect.class].entitytype).pc_entityblueprint","properties":[{"name":"m_mTransform","type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":17.989799499511719,"y":-38.406059265136719,"z":12.385040283203125}}},{"name":"m_sId","type":"ZGuid","value":"b5bf221-9f8a-49ef-9319-85e190c5b8c0"},{"name":"m_eRoomBehaviour","type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_DYNAMIC"},{"name":"m_bVisible","type":"bool","value":false}],"postInitProperties":[{"name":"m_eidParent","type":"SEntityTemplateReference","value":"fffffffffffffffe"}],"editorOnly":false,"platformSpecificPropertyValues":[],"entityID":"abcdecc27d681c13","events":[{"onEvent":"OnHit","shouldTrigger":"SetTrue","onEntity":"abcd73468c9beb05"}]}},{"op":"add","path":"/entities/abcdb194459098fe","value":{"parent":{"ref":"abcddc9910e81f2e","exposedEntity":"","externalScene":"SPECIAL: None","entityID":"ffffffffffffffff"},"name":"SetPiece_Activator_DinnerBell02","template":"[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_dinnerbell.entitytemplate].entitytype,[modules:/zspatialsaveaspect.class].entitytype).pc_entitytype","blueprint":"[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_dinnerbell.entitytemplate].entitytype,[modules:/zspatialsaveaspect.class].entitytype).pc_entityblueprint","properties":[{"name":"m_mTransform","type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":40.242561340332031,"y":8.948699951171875,"z":10.282620429992676}}},{"name":"m_sId","type":"ZGuid","value":"698abff9-5c2d-4fe1-9407-9a25427d49c6"},{"name":"m_eRoomBehaviour","type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_DYNAMIC"},{"name":"m_bVisible","type":"bool","value":false}],"postInitProperties":[{"name":"m_eidParent","type":"SEntityTemplateReference","value":"fffffffffffffffe"}],"editorOnly":false,"platformSpecificPropertyValues":[],"entityID":"abcdb194459098fe","events":[{"onEvent":"OnHit","shouldTrigger":"SetTrue","onEntity":"abcdf20229bd9aed"}]}},{"op":"add","path":"/entities/abcdd2cec21a864c","value":{"parent":{"ref":"abcddc9910e81f2e","exposedEntity":"","externalScene":"SPECIAL: None","entityID":"ffffffffffffffff"},"name":"SetPiece_EasterElk","template":"[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entityblueprint","properties":[{"name":"m_mTransform","type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-176.96241668430574},"position":{"x":1.9844950437545776,"y":-5.5884270668029785,"z":28.339439392089844}}},{"name":"m_sId","type":"ZGuid","value":"6418c1c7-4f94-490d-9a7c-bce933298633"},{"name":"m_eRoomBehaviour","type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_DYNAMIC"},{"name":"m_bVisible","type":"bool","value":false},{"name":"SwayTime","type":"int32","value":5},{"name":"m_eidParent","type":"SEntityTemplateReference","value":"fffffffffffffffe"}],"postInitProperties":[],"editorOnly":false,"platformSpecificPropertyValues":[],"entityID":"abcdd2cec21a864c","events":[{"onEvent":"OnBroken","shouldTrigger":"Start","onEntity":"abcdea8f48b78c8a"}]}},{"op":"add","path":"/entities/abcdb78b69fd512c","value":{"parent":{"ref":"abcddc9910e81f2e","exposedEntity":"","externalScene":"SPECIAL: None","entityID":"ffffffffffffffff"},"name":"SetPiece_EasterElk01","template":"[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entityblueprint","properties":[{"name":"m_mTransform","type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-176.96241668430574},"position":{"x":10.259880065917969,"y":13.716799736022949,"z":28.339439392089844}}},{"name":"m_sId","type":"ZGuid","value":"b6ae799a-da9d-4d7e-96a5-5e1c3ee3097b"},{"name":"m_eRoomBehaviour","type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_DYNAMIC"},{"name":"m_bVisible","type":"bool","value":false},{"name":"SwayTime","type":"int32","value":5}],"postInitProperties":[{"name":"m_eidParent","type":"SEntityTemplateReference","value":"fffffffffffffffe"}],"editorOnly":false,"platformSpecificPropertyValues":[],"entityID":"abcdb78b69fd512c"}},{"op":"add","path":"/entities/abcddf49405abf41","value":{"parent":{"ref":"abcddc9910e81f2e","exposedEntity":"","externalScene":"SPECIAL: None","entityID":"ffffffffffffffff"},"name":"SetPiece_EasterElk02","template":"[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entityblueprint","properties":[{"name":"m_mTransform","type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-176.96241668430574},"position":{"x":-9.9844999313354492,"y":-19.594139099121094,"z":28.339439392089844}}},{"name":"m_sId","type":"ZGuid","value":"142e437f-d498-4846-93f1-ad0134d7f78a"},{"name":"m_eRoomBehaviour","type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_DYNAMIC"},{"name":"m_bVisible","type":"bool","value":false},{"name":"SwayTime","type":"int32","value":5},{"name":"m_eidParent","type":"SEntityTemplateReference","value":"fffffffffffffffe"}],"postInitProperties":[],"editorOnly":false,"platformSpecificPropertyValues":[],"entityID":"abcddf49405abf41","events":[{"onEvent":"OnBroken","shouldTrigger":"Start","onEntity":"abcd1ac6d1c70996"}]}},{"op":"add","path":"/entities/abcdc1d6eef0b215","value":{"parent":{"ref":"abcddc9910e81f2e","exposedEntity":"","externalScene":"SPECIAL: None","entityID":"ffffffffffffffff"},"name":"SetPiece_EasterElk03","template":"[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entityblueprint","properties":[{"name":"m_mTransform","type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-176.96241668430574},"position":{"x":-23.213579177856445,"y":-20.302839279174805,"z":34.223018646240234}}},{"name":"m_sId","type":"ZGuid","value":"4fed5bda-faaa-4b3a-916d-bcc34255c97f"},{"name":"m_eRoomBehaviour","type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_DYNAMIC"},{"name":"m_bVisible","type":"bool","value":false},{"name":"SwayTime","type":"int32","value":5},{"name":"m_eidParent","type":"SEntityTemplateReference","value":"fffffffffffffffe"}],"postInitProperties":[],"editorOnly":false,"platformSpecificPropertyValues":[],"entityID":"abcdc1d6eef0b215","events":[{"onEvent":"OnBroken","shouldTrigger":"Start","onEntity":"abcda71ea08db6ca"}]}},{"op":"add","path":"/entities/abcdfbe8c7bb55fe","value":{"parent":{"ref":"abcddc9910e81f2e","exposedEntity":"","externalScene":"SPECIAL: None","entityID":"ffffffffffffffff"},"name":"SetPiece_EasterElk04","template":"[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entityblueprint","properties":[{"name":"m_mTransform","type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-176.96241668430574},"position":{"x":-28.041679382324219,"y":4.2875809669494629,"z":22.872829437255859}}},{"name":"m_sId","type":"ZGuid","value":"7568d16b-e031-4277-9ac3-a1742fa1331b"},{"name":"m_eRoomBehaviour","type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_DYNAMIC"},{"name":"m_bVisible","type":"bool","value":false},{"name":"SwayTime","type":"int32","value":5}],"postInitProperties":[{"name":"m_eidParent","type":"SEntityTemplateReference","value":"fffffffffffffffe"}],"editorOnly":false,"platformSpecificPropertyValues":[],"entityID":"abcdfbe8c7bb55fe","events":[{"onEvent":"OnBroken","shouldTrigger":"Start","onEntity":"abcde7a669ac309d"}]}},{"op":"add","path":"/entities/abcd0bbcfecbb6c7","value":{"parent":{"ref":"abcddc9910e81f2e","exposedEntity":"","externalScene":"SPECIAL: None","entityID":"ffffffffffffffff"},"name":"SetPiece_EasterElk05","template":"[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entityblueprint","properties":[{"name":"m_mTransform","type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0.12482599914073944,"y":-38.780399322509766,"z":22.357519149780273}}},{"name":"m_sId","type":"ZGuid","value":"d254fdbd-205a-4ab4-968b-3be7a1a41390"},{"name":"m_eRoomBehaviour","type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_DYNAMIC"},{"name":"m_bVisible","type":"bool","value":false},{"name":"SwayTime","type":"int32","value":5},{"name":"m_eidParent","type":"SEntityTemplateReference","value":"fffffffffffffffe"}],"postInitProperties":[],"editorOnly":false,"platformSpecificPropertyValues":[],"entityID":"abcd0bbcfecbb6c7","events":[{"onEvent":"OnBroken","shouldTrigger":"Start","onEntity":"abcda1c58daf4258"}]}},{"op":"add","path":"/entities/abcdb4085afdff8f","value":{"parent":{"ref":"abcddc9910e81f2e","exposedEntity":"","externalScene":"SPECIAL: None","entityID":"ffffffffffffffff"},"name":"SetPiece_EasterElk06","template":"[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entityblueprint","properties":[{"name":"m_mTransform","type":"SMatrix43","value":{"rotation":{"x":-2.7599119108934964,"y":-10.212822747725616,"z":-167.54944956466957},"position":{"x":20.485700607299805,"y":-9.1133766174316406,"z":26.953840255737305}}},{"name":"m_sId","type":"ZGuid","value":"a262813d-8129-4b7e-83fc-1928763d7d9d"},{"name":"m_eRoomBehaviour","type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_DYNAMIC"},{"name":"m_bVisible","type":"bool","value":false},{"name":"SwayTime","type":"int32","value":5}],"postInitProperties":[{"name":"m_eidParent","type":"SEntityTemplateReference","value":"fffffffffffffffe"}],"editorOnly":false,"platformSpecificPropertyValues":[],"entityID":"abcdb4085afdff8f","events":[{"onEvent":"OnBroken","shouldTrigger":"Stop","onEntity":"abcd6627f00aa680"}]}},{"op":"add","path":"/entities/abcd7bfbb1d73d95","value":{"parent":{"ref":"abcddc9910e81f2e","exposedEntity":"","externalScene":"SPECIAL: None","entityID":"ffffffffffffffff"},"name":"SetPiece_EasterElk07","template":"[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entityblueprint","properties":[{"name":"m_mTransform","type":"SMatrix43","value":{"rotation":{"x":-27.04481789007475,"y":-18.218281627611763,"z":-121.07515724934896},"position":{"x":17.980239868164062,"y":-27.671829223632812,"z":27.392570495605469}}},{"name":"m_sId","type":"ZGuid","value":"4bcc9161-f232-4560-9efa-5d34f72e1761"},{"name":"m_eRoomBehaviour","type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_DYNAMIC"},{"name":"m_bVisible","type":"bool","value":false},{"name":"SwayTime","type":"int32","value":5},{"name":"m_eidParent","type":"SEntityTemplateReference","value":"fffffffffffffffe"}],"postInitProperties":[],"editorOnly":false,"platformSpecificPropertyValues":[],"entityID":"abcd7bfbb1d73d95","events":[{"onEvent":"OnBroken","shouldTrigger":"MakeVisible","onEntity":"abcd9cf72f2be10b"},{"onEvent":"OnBroken","shouldTrigger":"Release","onEntity":"abcd9cf72f2be10b"}]}},{"op":"add","path":"/entities/abcd211e14d08325","value":{"parent":{"ref":"abcddc9910e81f2e","exposedEntity":"","externalScene":"SPECIAL: None","entityID":"ffffffffffffffff"},"name":"SetPiece_EasterElk08","template":"[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entityblueprint","properties":[{"name":"m_mTransform","type":"SMatrix43","value":{"rotation":{"x":-27.04481789007475,"y":-18.218281627611763,"z":-121.07515724934896},"position":{"x":-22.552240371704102,"y":-17.515800476074219,"z":27.301570892333984}}},{"name":"m_sId","type":"ZGuid","value":"3a2c2519-4186-49ab-b362-bcac66a9f71a"},{"name":"m_eRoomBehaviour","type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_DYNAMIC"},{"name":"m_bVisible","type":"bool","value":false},{"name":"SwayTime","type":"int32","value":5}],"postInitProperties":[{"name":"m_eidParent","type":"SEntityTemplateReference","value":"fffffffffffffffe"}],"editorOnly":false,"platformSpecificPropertyValues":[],"entityID":"abcd211e14d08325","events":[{"onEvent":"OnBroken","shouldTrigger":"Release","onEntity":"abcd1daa57c9f44a"},{"onEvent":"OnBroken","shouldTrigger":"MakeVisible","onEntity":"abcd1daa57c9f44a"}]}},{"op":"add","path":"/entities/abcdfa1a08a19ff3","value":{"parent":{"ref":"abcddc9910e81f2e","exposedEntity":"","externalScene":"SPECIAL: None","entityID":"ffffffffffffffff"},"name":"SetPiece_EasterElk09","template":"[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entityblueprint","properties":[{"name":"m_mTransform","type":"SMatrix43","value":{"rotation":{"x":-27.04481789007475,"y":-18.218281627611763,"z":-121.07515724934896},"position":{"x":-29.198389053344727,"y":-34.761848449707031,"z":33.830360412597656}}},{"name":"m_sId","type":"ZGuid","value":"9c7279d0-169b-4fc2-8651-69e08037e4e0"},{"name":"m_eRoomBehaviour","type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_DYNAMIC"},{"name":"m_bVisible","type":"bool","value":false},{"name":"SwayTime","type":"int32","value":5}],"postInitProperties":[{"name":"m_eidParent","type":"SEntityTemplateReference","value":"fffffffffffffffe"}],"editorOnly":false,"platformSpecificPropertyValues":[],"entityID":"abcdfa1a08a19ff3","events":[{"onEvent":"OnBroken","shouldTrigger":"Start","onEntity":"abcdd63002ff5635"}]}},{"op":"add","path":"/entities/abcd9f39098a0320","value":{"parent":{"ref":"abcddc9910e81f2e","exposedEntity":"","externalScene":"SPECIAL: None","entityID":"ffffffffffffffff"},"name":"SetPiece_EasterElk10","template":"[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entityblueprint","properties":[{"name":"m_mTransform","type":"SMatrix43","value":{"rotation":{"x":-27.04481789007475,"y":-18.218281627611763,"z":-121.07515724934896},"position":{"x":5.3576560020446777,"y":5.4075698852539062,"z":29.826480865478516}}},{"name":"m_sId","type":"ZGuid","value":"db012496-cddf-45bb-aec3-d09ecb8aaceb"},{"name":"m_eRoomBehaviour","type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_DYNAMIC"},{"name":"m_bVisible","type":"bool","value":false},{"name":"SwayTime","type":"int32","value":5}],"postInitProperties":[{"name":"m_eidParent","type":"SEntityTemplateReference","value":"fffffffffffffffe"}],"editorOnly":false,"platformSpecificPropertyValues":[],"entityID":"abcd9f39098a0320","events":[{"onEvent":"OnBroken","shouldTrigger":"Start","onEntity":"abcd28f910394f62"}]}},{"op":"add","path":"/entities/abcd91a086b40682","value":{"parent":{"ref":"abcddc9910e81f2e","exposedEntity":"","externalScene":"SPECIAL: None","entityID":"ffffffffffffffff"},"name":"SetPiece_EasterElk11","template":"[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entityblueprint","properties":[{"name":"m_mTransform","type":"SMatrix43","value":{"rotation":{"x":-27.04481789007475,"y":-18.218281627611763,"z":-121.07515724934896},"position":{"x":-7.1354150772094727,"y":-34.115650177001953,"z":29.063880920410156}}},{"name":"m_sId","type":"ZGuid","value":"872dbca0-8682-4999-9217-0d7c64ee6dc9"},{"name":"m_eRoomBehaviour","type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_DYNAMIC"},{"name":"m_bVisible","type":"bool","value":false},{"name":"SwayTime","type":"int32","value":5}],"postInitProperties":[{"name":"m_eidParent","type":"SEntityTemplateReference","value":"fffffffffffffffe"}],"editorOnly":false,"platformSpecificPropertyValues":[],"entityID":"abcd91a086b40682","events":[{"onEvent":"OnBroken","shouldTrigger":"MakeVisible","onEntity":"abcd74dcb516f7cc"},{"onEvent":"OnBroken","shouldTrigger":"Release","onEntity":"abcd74dcb516f7cc"}]}},{"op":"add","path":"/entities/abcd9cf72f2be10b","value":{"parent":{"ref":"abcddc9910e81f2e","exposedEntity":"","externalScene":"SPECIAL: None","entityID":"ffffffffffffffff"},"name":"SetPiece_EasterElk12","template":"[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entityblueprint","properties":[{"name":"m_mTransform","type":"SMatrix43","value":{"rotation":{"x":-27.04463162529792,"y":-18.218340950393973,"z":3.3685505318472475},"position":{"x":-1.007720947265625,"y":11.572349548339844,"z":23.586660385131836}}},{"name":"m_sId","type":"ZGuid","value":"c5f586a3-e8e5-4103-91c2-aed54592d5d7"},{"name":"m_eRoomBehaviour","type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_DYNAMIC"},{"name":"m_bVisible","type":"bool","value":false},{"name":"SwayTime","type":"int32","value":5},{"name":"m_eidParent","type":"SEntityTemplateReference","value":"fffffffffffffffe"}],"postInitProperties":[],"editorOnly":false,"platformSpecificPropertyValues":[],"entityID":"abcd9cf72f2be10b"}},{"op":"add","path":"/entities/abcd0443ae850fd7","value":{"parent":{"ref":"abcddc9910e81f2e","exposedEntity":"","externalScene":"SPECIAL: None","entityID":"ffffffffffffffff"},"name":"SetPiece_EasterElk13","template":"[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entityblueprint","properties":[{"name":"m_mTransform","type":"SMatrix43","value":{"rotation":{"x":-27.04463162529792,"y":-18.218340950393973,"z":3.3685505318472475},"position":{"x":-17.555759429931641,"y":-38.206188201904297,"z":27.197099685668945}}},{"name":"m_sId","type":"ZGuid","value":"a5c185d3-3fc7-4bdc-94ea-33dcaa8a9ae9"},{"name":"m_eRoomBehaviour","type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_DYNAMIC"},{"name":"m_bVisible","type":"bool","value":false},{"name":"SwayTime","type":"int32","value":5},{"name":"m_eidParent","type":"SEntityTemplateReference","value":"fffffffffffffffe"}],"postInitProperties":[],"editorOnly":false,"platformSpecificPropertyValues":[],"entityID":"abcd0443ae850fd7","events":[{"onEvent":"OnBroken","shouldTrigger":"MakeVisible","onEntity":"abcdc1d6eef0b215"},{"onEvent":"OnBroken","shouldTrigger":"Release","onEntity":"abcdc1d6eef0b215"}]}},{"op":"add","path":"/entities/abcdb490aa5da410","value":{"parent":{"ref":"abcddc9910e81f2e","exposedEntity":"","externalScene":"SPECIAL: None","entityID":"ffffffffffffffff"},"name":"SetPiece_EasterElk14","template":"[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entityblueprint","properties":[{"name":"m_mTransform","type":"SMatrix43","value":{"rotation":{"x":-27.04463162529792,"y":-18.218340950393973,"z":3.3685505318472475},"position":{"x":18.26569938659668,"y":-38.731529235839844,"z":29.063880920410156}}},{"name":"m_sId","type":"ZGuid","value":"a1374e28-24aa-4038-b8ff-fa89d9ad5465"},{"name":"m_eRoomBehaviour","type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_DYNAMIC"},{"name":"m_bVisible","type":"bool","value":false},{"name":"SwayTime","type":"int32","value":5}],"postInitProperties":[{"name":"m_eidParent","type":"SEntityTemplateReference","value":"fffffffffffffffe"}],"editorOnly":false,"platformSpecificPropertyValues":[],"entityID":"abcdb490aa5da410","events":[{"onEvent":"OnBroken","shouldTrigger":"Release","onEntity":"abcd8faa6c33bffa"},{"onEvent":"OnBroken","shouldTrigger":"MakeVisible","onEntity":"abcd8faa6c33bffa"}]}},{"op":"add","path":"/entities/abcdb56ce920205a","value":{"parent":{"ref":"abcddc9910e81f2e","exposedEntity":"","externalScene":"SPECIAL: None","entityID":"ffffffffffffffff"},"name":"SetPiece_EasterElk15","template":"[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entityblueprint","properties":[{"name":"m_mTransform","type":"SMatrix43","value":{"rotation":{"x":-27.04463162529792,"y":-18.218340950393973,"z":3.3685505318472475},"position":{"x":-7.0689888000488281,"y":-22.241310119628906,"z":29.063880920410156}}},{"name":"m_sId","type":"ZGuid","value":"6d198c-f76e-4256-b740-deb90a67f526"},{"name":"m_eRoomBehaviour","type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_DYNAMIC"},{"name":"m_bVisible","type":"bool","value":false},{"name":"SwayTime","type":"int32","value":5}],"postInitProperties":[{"name":"m_eidParent","type":"SEntityTemplateReference","value":"fffffffffffffffe"}],"editorOnly":false,"platformSpecificPropertyValues":[],"entityID":"abcdb56ce920205a","events":[{"onEvent":"OnBroken","shouldTrigger":"MakeVisible","onEntity":"abcd7bfbb1d73d95"},{"onEvent":"OnBroken","shouldTrigger":"Release","onEntity":"abcd7bfbb1d73d95"}]}},{"op":"add","path":"/entities/abcd74dcb516f7cc","value":{"parent":{"ref":"abcddc9910e81f2e","exposedEntity":"","externalScene":"SPECIAL: None","entityID":"ffffffffffffffff"},"name":"SetPiece_EasterElk16","template":"[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entityblueprint","properties":[{"name":"m_mTransform","type":"SMatrix43","value":{"rotation":{"x":-27.04463162529792,"y":-18.218340950393973,"z":3.3685505318472475},"position":{"x":-12.174619674682617,"y":14.512100219726562,"z":27.214950561523438}}},{"name":"m_sId","type":"ZGuid","value":"e9ca7ee3-2dd-4fbc-889c-02a256675435"},{"name":"m_eRoomBehaviour","type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_DYNAMIC"},{"name":"m_bVisible","type":"bool","value":false},{"name":"SwayTime","type":"int32","value":5}],"postInitProperties":[{"name":"m_eidParent","type":"SEntityTemplateReference","value":"fffffffffffffffe"}],"editorOnly":false,"platformSpecificPropertyValues":[],"entityID":"abcd74dcb516f7cc","events":[{"onEvent":"OnBroken","shouldTrigger":"MakeVisible","onEntity":"abcdfa1a08a19ff3"},{"onEvent":"OnBroken","shouldTrigger":"Release","onEntity":"abcdfa1a08a19ff3"}]}},{"op":"add","path":"/entities/abcd7bfc98085940","value":{"parent":{"ref":"abcddc9910e81f2e","exposedEntity":"","externalScene":"SPECIAL: None","entityID":"ffffffffffffffff"},"name":"SetPiece_EasterElk17","template":"[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entityblueprint","properties":[{"name":"m_mTransform","type":"SMatrix43","value":{"rotation":{"x":-27.04463162529792,"y":-18.218340950393973,"z":3.3685505318472475},"position":{"x":1.1067509651184082,"y":-16.190160751342773,"z":29.063880920410156}}},{"name":"m_sId","type":"ZGuid","value":"2637225f-b0d7-47c1-86c0-4a61ec74e198"},{"name":"m_eRoomBehaviour","type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_DYNAMIC"},{"name":"m_bVisible","type":"bool","value":false},{"name":"SwayTime","type":"int32","value":5}],"postInitProperties":[{"name":"m_eidParent","type":"SEntityTemplateReference","value":"fffffffffffffffe"}],"editorOnly":false,"platformSpecificPropertyValues":[],"entityID":"abcd7bfc98085940"}},{"op":"add","path":"/entities/abcd1daa57c9f44a","value":{"parent":{"ref":"abcddc9910e81f2e","exposedEntity":"","externalScene":"SPECIAL: None","entityID":"ffffffffffffffff"},"name":"SetPiece_EasterElk18","template":"[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entityblueprint","properties":[{"name":"m_mTransform","type":"SMatrix43","value":{"rotation":{"x":-58.57865390207276,"y":-50.05677530864603,"z":-64.90276462865971},"position":{"x":27.209539413452148,"y":-8.8189182281494141,"z":27.099609375}}},{"name":"m_sId","type":"ZGuid","value":"d88401e7-a7da-4574-ab2f-dd3f60425dcc"},{"name":"m_eRoomBehaviour","type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_DYNAMIC"},{"name":"m_bVisible","type":"bool","value":false},{"name":"SwayTime","type":"int32","value":5},{"name":"m_eidParent","type":"SEntityTemplateReference","value":"fffffffffffffffe"}],"postInitProperties":[],"editorOnly":false,"platformSpecificPropertyValues":[],"entityID":"abcd1daa57c9f44a","events":[{"onEvent":"OnBroken","shouldTrigger":"Start","onEntity":"abcd8ee617d43428"}]}},{"op":"add","path":"/entities/abcd8faa6c33bffa","value":{"parent":{"ref":"abcddc9910e81f2e","exposedEntity":"","externalScene":"SPECIAL: None","entityID":"ffffffffffffffff"},"name":"SetPiece_EasterElk19","template":"[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entityblueprint","properties":[{"name":"m_mTransform","type":"SMatrix43","value":{"rotation":{"x":-58.57865390207276,"y":-50.05677530864603,"z":-64.90276462865971},"position":{"x":30.104280471801758,"y":10.413220405578613,"z":27.036689758300781}}},{"name":"m_sId","type":"ZGuid","value":"d9ece185-fa21-497d-b808-dae5a974b499"},{"name":"m_eRoomBehaviour","type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_DYNAMIC"},{"name":"m_bVisible","type":"bool","value":false},{"name":"SwayTime","type":"int32","value":5},{"name":"m_eidParent","type":"SEntityTemplateReference","value":"fffffffffffffffe"}],"postInitProperties":[],"editorOnly":false,"platformSpecificPropertyValues":[],"entityID":"abcd8faa6c33bffa","events":[{"onEvent":"OnBroken","shouldTrigger":"Start","onEntity":"abcdec5478e0cd87"}]}},{"op":"add","path":"/entities/abcd2a31b2a424d0","value":{"parent":{"ref":"abcddc9910e81f2e","exposedEntity":"","externalScene":"SPECIAL: None","entityID":"ffffffffffffffff"},"name":"SetPiece_EasterElk20","template":"[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entityblueprint","properties":[{"name":"m_mTransform","type":"SMatrix43","value":{"rotation":{"x":-58.57865390207276,"y":-50.05677530864603,"z":-64.90276462865971},"position":{"x":22.258310317993164,"y":36.588001251220703,"z":27.099609375}}},{"name":"m_sId","type":"ZGuid","value":"cd178110-15c7-40f8-9f07-b81821140861"},{"name":"m_eRoomBehaviour","type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_DYNAMIC"},{"name":"m_bVisible","type":"bool","value":false},{"name":"SwayTime","type":"int32","value":5}],"postInitProperties":[{"name":"m_eidParent","type":"SEntityTemplateReference","value":"fffffffffffffffe"}],"editorOnly":false,"platformSpecificPropertyValues":[],"entityID":"abcd2a31b2a424d0","events":[{"onEvent":"OnBroken","shouldTrigger":"Start","onEntity":"abcd33ba25f5dcf4"}]}},{"op":"add","path":"/entities/abcd361668cd8afc","value":{"parent":{"ref":"abcddc9910e81f2e","exposedEntity":"","externalScene":"SPECIAL: None","entityID":"ffffffffffffffff"},"name":"SetPiece_EasterElk21","template":"[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entityblueprint","properties":[{"name":"m_mTransform","type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-176.96241668430574},"position":{"x":-11.79541015625,"y":-5.8499569892883301,"z":24.022769927978516}}},{"name":"m_sId","type":"ZGuid","value":"9f0a346b-7c26-4f8d-a872-764f993e6d88"},{"name":"m_eRoomBehaviour","type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_DYNAMIC"},{"name":"m_bVisible","type":"bool","value":false},{"name":"SwayTime","type":"int32","value":5},{"name":"m_eidParent","type":"SEntityTemplateReference","value":"fffffffffffffffe"}],"postInitProperties":[],"editorOnly":false,"platformSpecificPropertyValues":[],"entityID":"abcd361668cd8afc","events":[{"onEvent":"OnBroken","shouldTrigger":"MakeVisible","onEntity":"abcd91a086b40682"},{"onEvent":"OnBroken","shouldTrigger":"Release","onEntity":"abcd91a086b40682"}]}},{"op":"add","path":"/entities/abcd1ac6d1c70996","value":{"parent":{"ref":"abcddc9910e81f2e","exposedEntity":"","externalScene":"SPECIAL: None","entityID":"ffffffffffffffff"},"name":"TimerRandom","template":"[assembly:/_pro/design/logic.template?/timerrandom.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/logic.template?/timerrandom.entitytemplate].pc_entityblueprint","properties":[{"name":"m_fMinTime","type":"float32","value":0},{"name":"m_fMaxTime","type":"float32","value":5},{"name":"m_bEnabled","type":"bool","value":false}],"postInitProperties":[],"editorOnly":false,"platformSpecificPropertyValues":[],"entityID":"abcd1ac6d1c70996","events":[{"onEvent":"TimeOut","shouldTrigger":"Release","onEntity":"abcdd2cec21a864c"},{"onEvent":"TimeOut","shouldTrigger":"MakeVisible","onEntity":"abcdd2cec21a864c"},{"onEvent":"TimeOut","shouldTrigger":"Stop","onEntity":"abcd1ac6d1c70996"}]}},{"op":"add","path":"/entities/abcdea8f48b78c8a","value":{"parent":{"ref":"abcddc9910e81f2e","exposedEntity":"","externalScene":"SPECIAL: None","entityID":"ffffffffffffffff"},"name":"TimerRandom01","template":"[assembly:/_pro/design/logic.template?/timerrandom.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/logic.template?/timerrandom.entitytemplate].pc_entityblueprint","properties":[{"name":"m_fMinTime","type":"float32","value":0},{"name":"m_fMaxTime","type":"float32","value":5},{"name":"m_bEnabled","type":"bool","value":false}],"postInitProperties":[],"editorOnly":false,"platformSpecificPropertyValues":[],"entityID":"abcdea8f48b78c8a","events":[{"onEvent":"TimeOut","shouldTrigger":"MakeVisible","onEntity":"abcdfbe8c7bb55fe"},{"onEvent":"TimeOut","shouldTrigger":"Release","onEntity":"abcdfbe8c7bb55fe"},{"onEvent":"TimeOut","shouldTrigger":"Stop","onEntity":"abcdea8f48b78c8a"}]}},{"op":"add","path":"/entities/abcde7a669ac309d","value":{"parent":{"ref":"abcddc9910e81f2e","exposedEntity":"","externalScene":"SPECIAL: None","entityID":"ffffffffffffffff"},"name":"TimerRandom02","template":"[assembly:/_pro/design/logic.template?/timerrandom.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/logic.template?/timerrandom.entitytemplate].pc_entityblueprint","properties":[{"name":"m_fMinTime","type":"float32","value":0},{"name":"m_fMaxTime","type":"float32","value":5},{"name":"m_bEnabled","type":"bool","value":false}],"postInitProperties":[],"editorOnly":false,"platformSpecificPropertyValues":[],"entityID":"abcde7a669ac309d","events":[{"onEvent":"TimeOut","shouldTrigger":"Release","onEntity":"abcd0bbcfecbb6c7"},{"onEvent":"TimeOut","shouldTrigger":"MakeVisible","onEntity":"abcd0bbcfecbb6c7"},{"onEvent":"TimeOut","shouldTrigger":"Stop","onEntity":"abcde7a669ac309d"}]}},{"op":"add","path":"/entities/abcda1c58daf4258","value":{"parent":{"ref":"abcddc9910e81f2e","exposedEntity":"","externalScene":"SPECIAL: None","entityID":"ffffffffffffffff"},"name":"TimerRandom03","template":"[assembly:/_pro/design/logic.template?/timerrandom.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/logic.template?/timerrandom.entitytemplate].pc_entityblueprint","properties":[{"name":"m_fMinTime","type":"float32","value":0},{"name":"m_fMaxTime","type":"float32","value":5},{"name":"m_bEnabled","type":"bool","value":false}],"postInitProperties":[],"editorOnly":false,"platformSpecificPropertyValues":[],"entityID":"abcda1c58daf4258","events":[{"onEvent":"TimeOut","shouldTrigger":"Release","onEntity":"abcdb4085afdff8f"},{"onEvent":"TimeOut","shouldTrigger":"MakeVisible","onEntity":"abcdb4085afdff8f"},{"onEvent":"TimeOut","shouldTrigger":"Stop","onEntity":"abcda1c58daf4258"}]}},{"op":"add","path":"/entities/abcd6627f00aa680","value":{"parent":{"ref":"abcddc9910e81f2e","exposedEntity":"","externalScene":"SPECIAL: None","entityID":"ffffffffffffffff"},"name":"TimerRandom04","template":"[assembly:/_pro/design/logic.template?/timerrandom.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/logic.template?/timerrandom.entitytemplate].pc_entityblueprint","properties":[{"name":"m_fMinTime","type":"float32","value":5},{"name":"m_fMaxTime","type":"float32","value":8},{"name":"m_bEnabled","type":"bool","value":false}],"postInitProperties":[],"editorOnly":false,"platformSpecificPropertyValues":[],"entityID":"abcd6627f00aa680","events":[{"onEvent":"TimeOut","shouldTrigger":"MakeVisible","onEntity":"abcd2a31b2a424d0"},{"onEvent":"TimeOut","shouldTrigger":"Release","onEntity":"abcd2a31b2a424d0"},{"onEvent":"TimeOut","shouldTrigger":"Stop","onEntity":"abcd6627f00aa680"}]}},{"op":"add","path":"/entities/abcd33ba25f5dcf4","value":{"parent":{"ref":"abcddc9910e81f2e","exposedEntity":"","externalScene":"SPECIAL: None","entityID":"ffffffffffffffff"},"name":"TimerRandom05","template":"[assembly:/_pro/design/logic.template?/timerrandom.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/logic.template?/timerrandom.entitytemplate].pc_entityblueprint","properties":[{"name":"m_fMinTime","type":"float32","value":0},{"name":"m_fMaxTime","type":"float32","value":5},{"name":"m_bEnabled","type":"bool","value":false}],"postInitProperties":[],"editorOnly":false,"platformSpecificPropertyValues":[],"entityID":"abcd33ba25f5dcf4","events":[{"onEvent":"TimeOut","shouldTrigger":"Stop","onEntity":"abcd33ba25f5dcf4"},{"onEvent":"TimeOut","shouldTrigger":"MakeVisible","onEntity":"abcd9f39098a0320"},{"onEvent":"TimeOut","shouldTrigger":"Release","onEntity":"abcd9f39098a0320"}]}},{"op":"add","path":"/entities/abcd28f910394f62","value":{"parent":{"ref":"abcddc9910e81f2e","exposedEntity":"","externalScene":"SPECIAL: None","entityID":"ffffffffffffffff"},"name":"TimerRandom06","template":"[assembly:/_pro/design/logic.template?/timerrandom.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/logic.template?/timerrandom.entitytemplate].pc_entityblueprint","properties":[{"name":"m_fMinTime","type":"float32","value":0},{"name":"m_fMaxTime","type":"float32","value":3},{"name":"m_bEnabled","type":"bool","value":false}],"postInitProperties":[],"editorOnly":false,"platformSpecificPropertyValues":[],"entityID":"abcd28f910394f62","events":[{"onEvent":"TimeOut","shouldTrigger":"Stop","onEntity":"abcd28f910394f62"},{"onEvent":"TimeOut","shouldTrigger":"MakeVisible","onEntity":"abcdb56ce920205a"},{"onEvent":"TimeOut","shouldTrigger":"Release","onEntity":"abcdb56ce920205a"}]}},{"op":"add","path":"/entities/abcd597edbd794a9","value":{"parent":{"ref":"abcddc9910e81f2e","exposedEntity":"","externalScene":"SPECIAL: None","entityID":"ffffffffffffffff"},"name":"TimerRandom07","template":"[assembly:/_pro/design/logic.template?/timerrandom.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/logic.template?/timerrandom.entitytemplate].pc_entityblueprint","properties":[{"name":"m_fMinTime","type":"float32","value":5},{"name":"m_fMaxTime","type":"float32","value":8},{"name":"m_bEnabled","type":"bool","value":false}],"postInitProperties":[],"editorOnly":false,"platformSpecificPropertyValues":[],"entityID":"abcd597edbd794a9","events":[{"onEvent":"TimeOut","shouldTrigger":"Stop","onEntity":"abcd597edbd794a9"},{"onEvent":"TimeOut","shouldTrigger":"MakeVisible","onEntity":"abcd0443ae850fd7"},{"onEvent":"TimeOut","shouldTrigger":"Release","onEntity":"abcd0443ae850fd7"}]}},{"op":"add","path":"/entities/abcda71ea08db6ca","value":{"parent":{"ref":"abcddc9910e81f2e","exposedEntity":"","externalScene":"SPECIAL: None","entityID":"ffffffffffffffff"},"name":"TimerRandom08","template":"[assembly:/_pro/design/logic.template?/timerrandom.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/logic.template?/timerrandom.entitytemplate].pc_entityblueprint","properties":[{"name":"m_fMinTime","type":"float32","value":0},{"name":"m_fMaxTime","type":"float32","value":3},{"name":"m_bEnabled","type":"bool","value":false}],"postInitProperties":[],"editorOnly":false,"platformSpecificPropertyValues":[],"entityID":"abcda71ea08db6ca","events":[{"onEvent":"TimeOut","shouldTrigger":"Stop","onEntity":"abcda71ea08db6ca"},{"onEvent":"TimeOut","shouldTrigger":"MakeVisible","onEntity":"abcd361668cd8afc"},{"onEvent":"TimeOut","shouldTrigger":"Release","onEntity":"abcd361668cd8afc"}]}},{"op":"add","path":"/entities/abcdd63002ff5635","value":{"parent":{"ref":"abcddc9910e81f2e","exposedEntity":"","externalScene":"SPECIAL: None","entityID":"ffffffffffffffff"},"name":"TimerRandom09","template":"[assembly:/_pro/design/logic.template?/timerrandom.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/logic.template?/timerrandom.entitytemplate].pc_entityblueprint","properties":[{"name":"m_fMinTime","type":"float32","value":0},{"name":"m_fMaxTime","type":"float32","value":3},{"name":"m_bEnabled","type":"bool","value":false}],"postInitProperties":[],"editorOnly":false,"platformSpecificPropertyValues":[],"entityID":"abcdd63002ff5635","events":[{"onEvent":"TimeOut","shouldTrigger":"Stop","onEntity":"abcdd63002ff5635"},{"onEvent":"TimeOut","shouldTrigger":"MakeVisible","onEntity":"abcdb490aa5da410"},{"onEvent":"TimeOut","shouldTrigger":"Release","onEntity":"abcdb490aa5da410"}]}},{"op":"add","path":"/entities/abcdec5478e0cd87","value":{"parent":{"ref":"abcddc9910e81f2e","exposedEntity":"","externalScene":"SPECIAL: None","entityID":"ffffffffffffffff"},"name":"TimerRandom10","template":"[assembly:/_pro/design/logic.template?/timerrandom.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/logic.template?/timerrandom.entitytemplate].pc_entityblueprint","properties":[{"name":"m_fMinTime","type":"float32","value":0},{"name":"m_fMaxTime","type":"float32","value":3},{"name":"m_bEnabled","type":"bool","value":false}],"postInitProperties":[],"editorOnly":false,"platformSpecificPropertyValues":[],"entityID":"abcdec5478e0cd87","events":[{"onEvent":"TimeOut","shouldTrigger":"Stop","onEntity":"abcdec5478e0cd87"},{"onEvent":"TimeOut","shouldTrigger":"MakeVisible","onEntity":"abcd211e14d08325"},{"onEvent":"TimeOut","shouldTrigger":"Release","onEntity":"abcd211e14d08325"}]}},{"op":"add","path":"/entities/abcd8ee617d43428","value":{"parent":{"ref":"abcddc9910e81f2e","exposedEntity":"","externalScene":"SPECIAL: None","entityID":"ffffffffffffffff"},"name":"TimerRandom11","template":"[assembly:/_pro/design/logic.template?/timerrandom.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/logic.template?/timerrandom.entitytemplate].pc_entityblueprint","properties":[{"name":"m_fMinTime","type":"float32","value":0},{"name":"m_fMaxTime","type":"float32","value":3},{"name":"m_bEnabled","type":"bool","value":false}],"postInitProperties":[],"editorOnly":false,"platformSpecificPropertyValues":[],"entityID":"abcd8ee617d43428","events":[{"onEvent":"TimeOut","shouldTrigger":"Stop","onEntity":"abcd8ee617d43428"},{"onEvent":"TimeOut","shouldTrigger":"MakeVisible","onEntity":"abcdb78b69fd512c"},{"onEvent":"TimeOut","shouldTrigger":"Release","onEntity":"abcdb78b69fd512c"},{"onEvent":"TimeOut","shouldTrigger":"MakeVisible","onEntity":"abcd7bfc98085940"},{"onEvent":"TimeOut","shouldTrigger":"Release","onEntity":"abcd7bfc98085940"}]}},{"op":"add","path":"/entities/abcdfc2e306e61fe","value":{"parent":{"ref":"abcddc9910e81f2e","exposedEntity":"","externalScene":"SPECIAL: None","entityID":"ffffffffffffffff"},"name":"VB_AllHit","template":"[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint","properties":[],"postInitProperties":[{"name":"m_aValues","type":"TArray<SEntityTemplateReference>","value":["abcdf20229bd9aed","abcd73468c9beb05","abcd9e8b1abc1cc6",{"ref":"SPECIAL: Use EntityID","entityID":"1cca887f95da76c6","externalScene":"[assembly:/_pro/scenes/missions/marrakesh/dressing_embassy.brick].pc_entitytype","exposedEntity":""}]}],"editorOnly":false,"platformSpecificPropertyValues":[],"entityID":"abcdfc2e306e61fe","events":[{"onEvent":"OnTrue","shouldTrigger":"Release","onEntity":"abcddf49405abf41"},{"onEvent":"OnTrue","shouldTrigger":"MakeVisible","onEntity":"abcddf49405abf41"},{"onEvent":"OnTrue","shouldTrigger":"Start","onEntity":"abcd597edbd794a9"}]}},{"op":"add","path":"/entities/abcd87268d10bc83","value":{"parent":{"ref":"abcddc9910e81f2e","exposedEntity":"","externalScene":"SPECIAL: None","entityID":"ffffffffffffffff"},"name":"VB_AllHit01","template":"[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint","properties":[{"name":"m_aValues","type":"TArray<SEntityTemplateReference>","value":[{"ref":"SPECIAL: Use EntityID","entityID":"1cca887f95da76c6","externalScene":"[assembly:/_pro/scenes/missions/marrakesh/dressing_embassy.brick].pc_entitytype","exposedEntity":""}]}],"postInitProperties":[],"editorOnly":false,"platformSpecificPropertyValues":[],"entityID":"abcd87268d10bc83","events":[{"onEvent":"OnTrue","shouldTrigger":"MakeVisible","onEntity":"abcdb214cac79f9a"},{"onEvent":"OnTrue","shouldTrigger":"MakeVisible","onEntity":"abcdecc27d681c13"},{"onEvent":"OnTrue","shouldTrigger":"MakeVisible","onEntity":"abcdb194459098fe"}]}},{"op":"add","path":"/entities/abcd9e8b1abc1cc6","value":{"parent":{"ref":"abcddc9910e81f2e","exposedEntity":"","externalScene":"SPECIAL: None","entityID":"ffffffffffffffff"},"name":"VB_BellHit","template":"[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint","properties":[],"postInitProperties":[],"editorOnly":false,"platformSpecificPropertyValues":[],"entityID":"abcd9e8b1abc1cc6"}},{"op":"add","path":"/entities/abcd73468c9beb05","value":{"parent":{"ref":"abcddc9910e81f2e","exposedEntity":"","externalScene":"SPECIAL: None","entityID":"ffffffffffffffff"},"name":"VB_BellHit01","template":"[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint","properties":[],"postInitProperties":[],"editorOnly":false,"platformSpecificPropertyValues":[],"entityID":"abcd73468c9beb05"}},{"op":"add","path":"/entities/abcdf20229bd9aed","value":{"parent":{"ref":"abcddc9910e81f2e","exposedEntity":"","externalScene":"SPECIAL: None","entityID":"ffffffffffffffff"},"name":"VB_BellHit02","template":"[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint","properties":[],"postInitProperties":[],"editorOnly":false,"platformSpecificPropertyValues":[],"entityID":"abcdf20229bd9aed"}}]}
+{
+    "tempHash": "00A0AF5FC89FF2BE",
+    "tbluHash": "0052E4A4935EEF6E",
+    "patch": [
+        {
+            "op": "add",
+            "path": "/entities/abcddc9910e81f2e",
+            "value": {
+                "parent": "5a924242934896d7",
+                "name": "EasterElk",
+                "template": "[modules:/zentity.class].pc_entitytype",
+                "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+                "properties": {},
+                "postInitProperties": {},
+                "editorOnly": false,
+                "platformSpecificPropertyValues": []
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/abcdb214cac79f9a",
+            "value": {
+                "parent": "abcddc9910e81f2e",
+                "name": "SetPiece_Activator_DinnerBell",
+                "template": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_dinnerbell.entitytemplate].entitytype,[modules:/zspatialsaveaspect.class].entitytype).pc_entitytype",
+                "blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_dinnerbell.entitytemplate].entitytype,[modules:/zspatialsaveaspect.class].entitytype).pc_entityblueprint",
+                "properties": {
+                    "m_mTransform": {
+                        "type": "SMatrix43",
+                        "value": {
+                            "rotation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "position": {
+                                "x": -8.771679878234863,
+                                "y": -145.6602020263672,
+                                "z": 13.436280250549316
+                            }
+                        }
+                    },
+                    "m_sId": {
+                        "type": "ZGuid",
+                        "value": "9f70c074-5bfd-4122-bf55-fcd989f0b68a"
+                    },
+                    "m_eRoomBehaviour": {
+                        "type": "ZSpatialEntity.ERoomBehaviour",
+                        "value": "ROOM_DYNAMIC"
+                    },
+                    "m_bVisible": {
+                        "type": "bool",
+                        "value": false
+                    }
+                },
+                "postInitProperties": {
+                    "m_eidParent": {
+                        "type": "SEntityTemplateReference",
+                        "value": "fffffffffffffffe"
+                    }
+                },
+                "editorOnly": false,
+                "platformSpecificPropertyValues": [],
+                "events": [
+                    {
+                        "onEvent": "OnHit",
+                        "shouldTrigger": "SetTrue",
+                        "onEntity": "abcd9e8b1abc1cc6"
+                    }
+                ]
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/abcdecc27d681c13",
+            "value": {
+                "parent": "abcddc9910e81f2e",
+                "name": "SetPiece_Activator_DinnerBell01",
+                "template": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_dinnerbell.entitytemplate].entitytype,[modules:/zspatialsaveaspect.class].entitytype).pc_entitytype",
+                "blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_dinnerbell.entitytemplate].entitytype,[modules:/zspatialsaveaspect.class].entitytype).pc_entityblueprint",
+                "properties": {
+                    "m_mTransform": {
+                        "type": "SMatrix43",
+                        "value": {
+                            "rotation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "position": {
+                                "x": 17.98979949951172,
+                                "y": -38.40605926513672,
+                                "z": 12.385040283203125
+                            }
+                        }
+                    },
+                    "m_sId": {
+                        "type": "ZGuid",
+                        "value": "b5bf221-9f8a-49ef-9319-85e190c5b8c0"
+                    },
+                    "m_eRoomBehaviour": {
+                        "type": "ZSpatialEntity.ERoomBehaviour",
+                        "value": "ROOM_DYNAMIC"
+                    },
+                    "m_bVisible": {
+                        "type": "bool",
+                        "value": false
+                    }
+                },
+                "postInitProperties": {
+                    "m_eidParent": {
+                        "type": "SEntityTemplateReference",
+                        "value": "fffffffffffffffe"
+                    }
+                },
+                "editorOnly": false,
+                "platformSpecificPropertyValues": [],
+                "events": [
+                    {
+                        "onEvent": "OnHit",
+                        "shouldTrigger": "SetTrue",
+                        "onEntity": "abcd73468c9beb05"
+                    }
+                ]
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/abcdb194459098fe",
+            "value": {
+                "parent": "abcddc9910e81f2e",
+                "name": "SetPiece_Activator_DinnerBell02",
+                "template": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_dinnerbell.entitytemplate].entitytype,[modules:/zspatialsaveaspect.class].entitytype).pc_entitytype",
+                "blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_dinnerbell.entitytemplate].entitytype,[modules:/zspatialsaveaspect.class].entitytype).pc_entityblueprint",
+                "properties": {
+                    "m_mTransform": {
+                        "type": "SMatrix43",
+                        "value": {
+                            "rotation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "position": {
+                                "x": 40.24256134033203,
+                                "y": 8.948699951171875,
+                                "z": 10.282620429992676
+                            }
+                        }
+                    },
+                    "m_sId": {
+                        "type": "ZGuid",
+                        "value": "698abff9-5c2d-4fe1-9407-9a25427d49c6"
+                    },
+                    "m_eRoomBehaviour": {
+                        "type": "ZSpatialEntity.ERoomBehaviour",
+                        "value": "ROOM_DYNAMIC"
+                    },
+                    "m_bVisible": {
+                        "type": "bool",
+                        "value": false
+                    }
+                },
+                "postInitProperties": {
+                    "m_eidParent": {
+                        "type": "SEntityTemplateReference",
+                        "value": "fffffffffffffffe"
+                    }
+                },
+                "editorOnly": false,
+                "platformSpecificPropertyValues": [],
+                "events": [
+                    {
+                        "onEvent": "OnHit",
+                        "shouldTrigger": "SetTrue",
+                        "onEntity": "abcdf20229bd9aed"
+                    }
+                ]
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/abcdd2cec21a864c",
+            "value": {
+                "parent": "abcddc9910e81f2e",
+                "name": "SetPiece_EasterElk",
+                "template": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entitytype",
+                "blueprint": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entityblueprint",
+                "properties": {
+                    "m_mTransform": {
+                        "type": "SMatrix43",
+                        "value": {
+                            "rotation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": -176.96241668430574
+                            },
+                            "position": {
+                                "x": 1.9844950437545776,
+                                "y": -5.5884270668029785,
+                                "z": 28.339439392089844
+                            }
+                        }
+                    },
+                    "m_sId": {
+                        "type": "ZGuid",
+                        "value": "6418c1c7-4f94-490d-9a7c-bce933298633"
+                    },
+                    "m_eRoomBehaviour": {
+                        "type": "ZSpatialEntity.ERoomBehaviour",
+                        "value": "ROOM_DYNAMIC"
+                    },
+                    "m_bVisible": {
+                        "type": "bool",
+                        "value": false
+                    },
+                    "SwayTime": {
+                        "type": "int32",
+                        "value": 5
+                    },
+                    "m_eidParent": {
+                        "type": "SEntityTemplateReference",
+                        "value": "fffffffffffffffe"
+                    }
+                },
+                "postInitProperties": {},
+                "editorOnly": false,
+                "platformSpecificPropertyValues": [],
+                "events": [
+                    {
+                        "onEvent": "OnBroken",
+                        "shouldTrigger": "Start",
+                        "onEntity": "abcdea8f48b78c8a"
+                    }
+                ]
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/abcdb78b69fd512c",
+            "value": {
+                "parent": "abcddc9910e81f2e",
+                "name": "SetPiece_EasterElk01",
+                "template": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entitytype",
+                "blueprint": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entityblueprint",
+                "properties": {
+                    "m_mTransform": {
+                        "type": "SMatrix43",
+                        "value": {
+                            "rotation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": -176.96241668430574
+                            },
+                            "position": {
+                                "x": 10.259880065917969,
+                                "y": 13.71679973602295,
+                                "z": 28.339439392089844
+                            }
+                        }
+                    },
+                    "m_sId": {
+                        "type": "ZGuid",
+                        "value": "b6ae799a-da9d-4d7e-96a5-5e1c3ee3097b"
+                    },
+                    "m_eRoomBehaviour": {
+                        "type": "ZSpatialEntity.ERoomBehaviour",
+                        "value": "ROOM_DYNAMIC"
+                    },
+                    "m_bVisible": {
+                        "type": "bool",
+                        "value": false
+                    },
+                    "SwayTime": {
+                        "type": "int32",
+                        "value": 5
+                    }
+                },
+                "postInitProperties": {
+                    "m_eidParent": {
+                        "type": "SEntityTemplateReference",
+                        "value": "fffffffffffffffe"
+                    }
+                },
+                "editorOnly": false,
+                "platformSpecificPropertyValues": []
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/abcddf49405abf41",
+            "value": {
+                "parent": "abcddc9910e81f2e",
+                "name": "SetPiece_EasterElk02",
+                "template": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entitytype",
+                "blueprint": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entityblueprint",
+                "properties": {
+                    "m_mTransform": {
+                        "type": "SMatrix43",
+                        "value": {
+                            "rotation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": -176.96241668430574
+                            },
+                            "position": {
+                                "x": -9.98449993133545,
+                                "y": -19.594139099121094,
+                                "z": 28.339439392089844
+                            }
+                        }
+                    },
+                    "m_sId": {
+                        "type": "ZGuid",
+                        "value": "142e437f-d498-4846-93f1-ad0134d7f78a"
+                    },
+                    "m_eRoomBehaviour": {
+                        "type": "ZSpatialEntity.ERoomBehaviour",
+                        "value": "ROOM_DYNAMIC"
+                    },
+                    "m_bVisible": {
+                        "type": "bool",
+                        "value": false
+                    },
+                    "SwayTime": {
+                        "type": "int32",
+                        "value": 5
+                    },
+                    "m_eidParent": {
+                        "type": "SEntityTemplateReference",
+                        "value": "fffffffffffffffe"
+                    }
+                },
+                "postInitProperties": {},
+                "editorOnly": false,
+                "platformSpecificPropertyValues": [],
+                "events": [
+                    {
+                        "onEvent": "OnBroken",
+                        "shouldTrigger": "Start",
+                        "onEntity": "abcd1ac6d1c70996"
+                    }
+                ]
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/abcdc1d6eef0b215",
+            "value": {
+                "parent": "abcddc9910e81f2e",
+                "name": "SetPiece_EasterElk03",
+                "template": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entitytype",
+                "blueprint": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entityblueprint",
+                "properties": {
+                    "m_mTransform": {
+                        "type": "SMatrix43",
+                        "value": {
+                            "rotation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": -176.96241668430574
+                            },
+                            "position": {
+                                "x": -23.213579177856445,
+                                "y": -20.302839279174805,
+                                "z": 34.223018646240234
+                            }
+                        }
+                    },
+                    "m_sId": {
+                        "type": "ZGuid",
+                        "value": "4fed5bda-faaa-4b3a-916d-bcc34255c97f"
+                    },
+                    "m_eRoomBehaviour": {
+                        "type": "ZSpatialEntity.ERoomBehaviour",
+                        "value": "ROOM_DYNAMIC"
+                    },
+                    "m_bVisible": {
+                        "type": "bool",
+                        "value": false
+                    },
+                    "SwayTime": {
+                        "type": "int32",
+                        "value": 5
+                    },
+                    "m_eidParent": {
+                        "type": "SEntityTemplateReference",
+                        "value": "fffffffffffffffe"
+                    }
+                },
+                "postInitProperties": {},
+                "editorOnly": false,
+                "platformSpecificPropertyValues": [],
+                "events": [
+                    {
+                        "onEvent": "OnBroken",
+                        "shouldTrigger": "Start",
+                        "onEntity": "abcda71ea08db6ca"
+                    }
+                ]
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/abcdfbe8c7bb55fe",
+            "value": {
+                "parent": "abcddc9910e81f2e",
+                "name": "SetPiece_EasterElk04",
+                "template": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entitytype",
+                "blueprint": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entityblueprint",
+                "properties": {
+                    "m_mTransform": {
+                        "type": "SMatrix43",
+                        "value": {
+                            "rotation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": -176.96241668430574
+                            },
+                            "position": {
+                                "x": -28.04167938232422,
+                                "y": 4.287580966949463,
+                                "z": 22.87282943725586
+                            }
+                        }
+                    },
+                    "m_sId": {
+                        "type": "ZGuid",
+                        "value": "7568d16b-e031-4277-9ac3-a1742fa1331b"
+                    },
+                    "m_eRoomBehaviour": {
+                        "type": "ZSpatialEntity.ERoomBehaviour",
+                        "value": "ROOM_DYNAMIC"
+                    },
+                    "m_bVisible": {
+                        "type": "bool",
+                        "value": false
+                    },
+                    "SwayTime": {
+                        "type": "int32",
+                        "value": 5
+                    }
+                },
+                "postInitProperties": {
+                    "m_eidParent": {
+                        "type": "SEntityTemplateReference",
+                        "value": "fffffffffffffffe"
+                    }
+                },
+                "editorOnly": false,
+                "platformSpecificPropertyValues": [],
+                "events": [
+                    {
+                        "onEvent": "OnBroken",
+                        "shouldTrigger": "Start",
+                        "onEntity": "abcde7a669ac309d"
+                    }
+                ]
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/abcd0bbcfecbb6c7",
+            "value": {
+                "parent": "abcddc9910e81f2e",
+                "name": "SetPiece_EasterElk05",
+                "template": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entitytype",
+                "blueprint": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entityblueprint",
+                "properties": {
+                    "m_mTransform": {
+                        "type": "SMatrix43",
+                        "value": {
+                            "rotation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "position": {
+                                "x": 0.12482599914073944,
+                                "y": -38.780399322509766,
+                                "z": 22.357519149780273
+                            }
+                        }
+                    },
+                    "m_sId": {
+                        "type": "ZGuid",
+                        "value": "d254fdbd-205a-4ab4-968b-3be7a1a41390"
+                    },
+                    "m_eRoomBehaviour": {
+                        "type": "ZSpatialEntity.ERoomBehaviour",
+                        "value": "ROOM_DYNAMIC"
+                    },
+                    "m_bVisible": {
+                        "type": "bool",
+                        "value": false
+                    },
+                    "SwayTime": {
+                        "type": "int32",
+                        "value": 5
+                    },
+                    "m_eidParent": {
+                        "type": "SEntityTemplateReference",
+                        "value": "fffffffffffffffe"
+                    }
+                },
+                "postInitProperties": {},
+                "editorOnly": false,
+                "platformSpecificPropertyValues": [],
+                "events": [
+                    {
+                        "onEvent": "OnBroken",
+                        "shouldTrigger": "Start",
+                        "onEntity": "abcda1c58daf4258"
+                    }
+                ]
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/abcdb4085afdff8f",
+            "value": {
+                "parent": "abcddc9910e81f2e",
+                "name": "SetPiece_EasterElk06",
+                "template": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entitytype",
+                "blueprint": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entityblueprint",
+                "properties": {
+                    "m_mTransform": {
+                        "type": "SMatrix43",
+                        "value": {
+                            "rotation": {
+                                "x": -2.759911824422895,
+                                "y": -10.212822747725616,
+                                "z": -167.54944956466957
+                            },
+                            "position": {
+                                "x": 20.485700607299805,
+                                "y": -9.11337661743164,
+                                "z": 26.953840255737305
+                            }
+                        }
+                    },
+                    "m_sId": {
+                        "type": "ZGuid",
+                        "value": "a262813d-8129-4b7e-83fc-1928763d7d9d"
+                    },
+                    "m_eRoomBehaviour": {
+                        "type": "ZSpatialEntity.ERoomBehaviour",
+                        "value": "ROOM_DYNAMIC"
+                    },
+                    "m_bVisible": {
+                        "type": "bool",
+                        "value": false
+                    },
+                    "SwayTime": {
+                        "type": "int32",
+                        "value": 5
+                    }
+                },
+                "postInitProperties": {
+                    "m_eidParent": {
+                        "type": "SEntityTemplateReference",
+                        "value": "fffffffffffffffe"
+                    }
+                },
+                "editorOnly": false,
+                "platformSpecificPropertyValues": [],
+                "events": [
+                    {
+                        "onEvent": "OnBroken",
+                        "shouldTrigger": "Stop",
+                        "onEntity": "abcd6627f00aa680"
+                    }
+                ]
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/abcd7bfbb1d73d95",
+            "value": {
+                "parent": "abcddc9910e81f2e",
+                "name": "SetPiece_EasterElk07",
+                "template": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entitytype",
+                "blueprint": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entityblueprint",
+                "properties": {
+                    "m_mTransform": {
+                        "type": "SMatrix43",
+                        "value": {
+                            "rotation": {
+                                "x": -27.044817957391768,
+                                "y": -18.218281627611763,
+                                "z": -121.07515693326093
+                            },
+                            "position": {
+                                "x": 17.980239868164063,
+                                "y": -27.671829223632813,
+                                "z": 27.39257049560547
+                            }
+                        }
+                    },
+                    "m_sId": {
+                        "type": "ZGuid",
+                        "value": "4bcc9161-f232-4560-9efa-5d34f72e1761"
+                    },
+                    "m_eRoomBehaviour": {
+                        "type": "ZSpatialEntity.ERoomBehaviour",
+                        "value": "ROOM_DYNAMIC"
+                    },
+                    "m_bVisible": {
+                        "type": "bool",
+                        "value": false
+                    },
+                    "SwayTime": {
+                        "type": "int32",
+                        "value": 5
+                    },
+                    "m_eidParent": {
+                        "type": "SEntityTemplateReference",
+                        "value": "fffffffffffffffe"
+                    }
+                },
+                "postInitProperties": {},
+                "editorOnly": false,
+                "platformSpecificPropertyValues": [],
+                "events": [
+                    {
+                        "onEvent": "OnBroken",
+                        "shouldTrigger": "MakeVisible",
+                        "onEntity": "abcd9cf72f2be10b"
+                    },
+                    {
+                        "onEvent": "OnBroken",
+                        "shouldTrigger": "Release",
+                        "onEntity": "abcd9cf72f2be10b"
+                    }
+                ]
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/abcd211e14d08325",
+            "value": {
+                "parent": "abcddc9910e81f2e",
+                "name": "SetPiece_EasterElk08",
+                "template": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entitytype",
+                "blueprint": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entityblueprint",
+                "properties": {
+                    "m_mTransform": {
+                        "type": "SMatrix43",
+                        "value": {
+                            "rotation": {
+                                "x": -27.044817957391768,
+                                "y": -18.218281627611763,
+                                "z": -121.07515693326093
+                            },
+                            "position": {
+                                "x": -22.5522403717041,
+                                "y": -17.51580047607422,
+                                "z": 27.301570892333984
+                            }
+                        }
+                    },
+                    "m_sId": {
+                        "type": "ZGuid",
+                        "value": "3a2c2519-4186-49ab-b362-bcac66a9f71a"
+                    },
+                    "m_eRoomBehaviour": {
+                        "type": "ZSpatialEntity.ERoomBehaviour",
+                        "value": "ROOM_DYNAMIC"
+                    },
+                    "m_bVisible": {
+                        "type": "bool",
+                        "value": false
+                    },
+                    "SwayTime": {
+                        "type": "int32",
+                        "value": 5
+                    }
+                },
+                "postInitProperties": {
+                    "m_eidParent": {
+                        "type": "SEntityTemplateReference",
+                        "value": "fffffffffffffffe"
+                    }
+                },
+                "editorOnly": false,
+                "platformSpecificPropertyValues": [],
+                "events": [
+                    {
+                        "onEvent": "OnBroken",
+                        "shouldTrigger": "Release",
+                        "onEntity": "abcd1daa57c9f44a"
+                    },
+                    {
+                        "onEvent": "OnBroken",
+                        "shouldTrigger": "MakeVisible",
+                        "onEntity": "abcd1daa57c9f44a"
+                    }
+                ]
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/abcdfa1a08a19ff3",
+            "value": {
+                "parent": "abcddc9910e81f2e",
+                "name": "SetPiece_EasterElk09",
+                "template": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entitytype",
+                "blueprint": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entityblueprint",
+                "properties": {
+                    "m_mTransform": {
+                        "type": "SMatrix43",
+                        "value": {
+                            "rotation": {
+                                "x": -27.044817957391768,
+                                "y": -18.218281627611763,
+                                "z": -121.07515693326093
+                            },
+                            "position": {
+                                "x": -29.198389053344727,
+                                "y": -34.76184844970703,
+                                "z": 33.830360412597656
+                            }
+                        }
+                    },
+                    "m_sId": {
+                        "type": "ZGuid",
+                        "value": "9c7279d0-169b-4fc2-8651-69e08037e4e0"
+                    },
+                    "m_eRoomBehaviour": {
+                        "type": "ZSpatialEntity.ERoomBehaviour",
+                        "value": "ROOM_DYNAMIC"
+                    },
+                    "m_bVisible": {
+                        "type": "bool",
+                        "value": false
+                    },
+                    "SwayTime": {
+                        "type": "int32",
+                        "value": 5
+                    }
+                },
+                "postInitProperties": {
+                    "m_eidParent": {
+                        "type": "SEntityTemplateReference",
+                        "value": "fffffffffffffffe"
+                    }
+                },
+                "editorOnly": false,
+                "platformSpecificPropertyValues": [],
+                "events": [
+                    {
+                        "onEvent": "OnBroken",
+                        "shouldTrigger": "Start",
+                        "onEntity": "abcdd63002ff5635"
+                    }
+                ]
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/abcd9f39098a0320",
+            "value": {
+                "parent": "abcddc9910e81f2e",
+                "name": "SetPiece_EasterElk10",
+                "template": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entitytype",
+                "blueprint": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entityblueprint",
+                "properties": {
+                    "m_mTransform": {
+                        "type": "SMatrix43",
+                        "value": {
+                            "rotation": {
+                                "x": -27.044817957391768,
+                                "y": -18.218281627611763,
+                                "z": -121.07515693326093
+                            },
+                            "position": {
+                                "x": 5.357656002044678,
+                                "y": 5.407569885253906,
+                                "z": 29.826480865478516
+                            }
+                        }
+                    },
+                    "m_sId": {
+                        "type": "ZGuid",
+                        "value": "db012496-cddf-45bb-aec3-d09ecb8aaceb"
+                    },
+                    "m_eRoomBehaviour": {
+                        "type": "ZSpatialEntity.ERoomBehaviour",
+                        "value": "ROOM_DYNAMIC"
+                    },
+                    "m_bVisible": {
+                        "type": "bool",
+                        "value": false
+                    },
+                    "SwayTime": {
+                        "type": "int32",
+                        "value": 5
+                    }
+                },
+                "postInitProperties": {
+                    "m_eidParent": {
+                        "type": "SEntityTemplateReference",
+                        "value": "fffffffffffffffe"
+                    }
+                },
+                "editorOnly": false,
+                "platformSpecificPropertyValues": [],
+                "events": [
+                    {
+                        "onEvent": "OnBroken",
+                        "shouldTrigger": "Start",
+                        "onEntity": "abcd28f910394f62"
+                    }
+                ]
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/abcd91a086b40682",
+            "value": {
+                "parent": "abcddc9910e81f2e",
+                "name": "SetPiece_EasterElk11",
+                "template": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entitytype",
+                "blueprint": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entityblueprint",
+                "properties": {
+                    "m_mTransform": {
+                        "type": "SMatrix43",
+                        "value": {
+                            "rotation": {
+                                "x": -27.044817957391768,
+                                "y": -18.218281627611763,
+                                "z": -121.07515693326093
+                            },
+                            "position": {
+                                "x": -7.135415077209473,
+                                "y": -34.11565017700195,
+                                "z": 29.063880920410156
+                            }
+                        }
+                    },
+                    "m_sId": {
+                        "type": "ZGuid",
+                        "value": "872dbca0-8682-4999-9217-0d7c64ee6dc9"
+                    },
+                    "m_eRoomBehaviour": {
+                        "type": "ZSpatialEntity.ERoomBehaviour",
+                        "value": "ROOM_DYNAMIC"
+                    },
+                    "m_bVisible": {
+                        "type": "bool",
+                        "value": false
+                    },
+                    "SwayTime": {
+                        "type": "int32",
+                        "value": 5
+                    }
+                },
+                "postInitProperties": {
+                    "m_eidParent": {
+                        "type": "SEntityTemplateReference",
+                        "value": "fffffffffffffffe"
+                    }
+                },
+                "editorOnly": false,
+                "platformSpecificPropertyValues": [],
+                "events": [
+                    {
+                        "onEvent": "OnBroken",
+                        "shouldTrigger": "MakeVisible",
+                        "onEntity": "abcd74dcb516f7cc"
+                    },
+                    {
+                        "onEvent": "OnBroken",
+                        "shouldTrigger": "Release",
+                        "onEntity": "abcd74dcb516f7cc"
+                    }
+                ]
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/abcd9cf72f2be10b",
+            "value": {
+                "parent": "abcddc9910e81f2e",
+                "name": "SetPiece_EasterElk12",
+                "template": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entitytype",
+                "blueprint": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entityblueprint",
+                "properties": {
+                    "m_mTransform": {
+                        "type": "SMatrix43",
+                        "value": {
+                            "rotation": {
+                                "x": -27.04463162529792,
+                                "y": -18.218340950393973,
+                                "z": 3.368550505719474
+                            },
+                            "position": {
+                                "x": -1.007720947265625,
+                                "y": 11.572349548339844,
+                                "z": 23.586660385131836
+                            }
+                        }
+                    },
+                    "m_sId": {
+                        "type": "ZGuid",
+                        "value": "c5f586a3-e8e5-4103-91c2-aed54592d5d7"
+                    },
+                    "m_eRoomBehaviour": {
+                        "type": "ZSpatialEntity.ERoomBehaviour",
+                        "value": "ROOM_DYNAMIC"
+                    },
+                    "m_bVisible": {
+                        "type": "bool",
+                        "value": false
+                    },
+                    "SwayTime": {
+                        "type": "int32",
+                        "value": 5
+                    },
+                    "m_eidParent": {
+                        "type": "SEntityTemplateReference",
+                        "value": "fffffffffffffffe"
+                    }
+                },
+                "postInitProperties": {},
+                "editorOnly": false,
+                "platformSpecificPropertyValues": []
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/abcd0443ae850fd7",
+            "value": {
+                "parent": "abcddc9910e81f2e",
+                "name": "SetPiece_EasterElk13",
+                "template": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entitytype",
+                "blueprint": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entityblueprint",
+                "properties": {
+                    "m_mTransform": {
+                        "type": "SMatrix43",
+                        "value": {
+                            "rotation": {
+                                "x": -27.04463162529792,
+                                "y": -18.218340950393973,
+                                "z": 3.368550505719474
+                            },
+                            "position": {
+                                "x": -17.55575942993164,
+                                "y": -38.2061882019043,
+                                "z": 27.197099685668945
+                            }
+                        }
+                    },
+                    "m_sId": {
+                        "type": "ZGuid",
+                        "value": "a5c185d3-3fc7-4bdc-94ea-33dcaa8a9ae9"
+                    },
+                    "m_eRoomBehaviour": {
+                        "type": "ZSpatialEntity.ERoomBehaviour",
+                        "value": "ROOM_DYNAMIC"
+                    },
+                    "m_bVisible": {
+                        "type": "bool",
+                        "value": false
+                    },
+                    "SwayTime": {
+                        "type": "int32",
+                        "value": 5
+                    },
+                    "m_eidParent": {
+                        "type": "SEntityTemplateReference",
+                        "value": "fffffffffffffffe"
+                    }
+                },
+                "postInitProperties": {},
+                "editorOnly": false,
+                "platformSpecificPropertyValues": [],
+                "events": [
+                    {
+                        "onEvent": "OnBroken",
+                        "shouldTrigger": "MakeVisible",
+                        "onEntity": "abcdc1d6eef0b215"
+                    },
+                    {
+                        "onEvent": "OnBroken",
+                        "shouldTrigger": "Release",
+                        "onEntity": "abcdc1d6eef0b215"
+                    }
+                ]
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/abcdb490aa5da410",
+            "value": {
+                "parent": "abcddc9910e81f2e",
+                "name": "SetPiece_EasterElk14",
+                "template": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entitytype",
+                "blueprint": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entityblueprint",
+                "properties": {
+                    "m_mTransform": {
+                        "type": "SMatrix43",
+                        "value": {
+                            "rotation": {
+                                "x": -27.04463162529792,
+                                "y": -18.218340950393973,
+                                "z": 3.368550505719474
+                            },
+                            "position": {
+                                "x": 18.26569938659668,
+                                "y": -38.731529235839844,
+                                "z": 29.063880920410156
+                            }
+                        }
+                    },
+                    "m_sId": {
+                        "type": "ZGuid",
+                        "value": "a1374e28-24aa-4038-b8ff-fa89d9ad5465"
+                    },
+                    "m_eRoomBehaviour": {
+                        "type": "ZSpatialEntity.ERoomBehaviour",
+                        "value": "ROOM_DYNAMIC"
+                    },
+                    "m_bVisible": {
+                        "type": "bool",
+                        "value": false
+                    },
+                    "SwayTime": {
+                        "type": "int32",
+                        "value": 5
+                    }
+                },
+                "postInitProperties": {
+                    "m_eidParent": {
+                        "type": "SEntityTemplateReference",
+                        "value": "fffffffffffffffe"
+                    }
+                },
+                "editorOnly": false,
+                "platformSpecificPropertyValues": [],
+                "events": [
+                    {
+                        "onEvent": "OnBroken",
+                        "shouldTrigger": "Release",
+                        "onEntity": "abcd8faa6c33bffa"
+                    },
+                    {
+                        "onEvent": "OnBroken",
+                        "shouldTrigger": "MakeVisible",
+                        "onEntity": "abcd8faa6c33bffa"
+                    }
+                ]
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/abcdb56ce920205a",
+            "value": {
+                "parent": "abcddc9910e81f2e",
+                "name": "SetPiece_EasterElk15",
+                "template": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entitytype",
+                "blueprint": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entityblueprint",
+                "properties": {
+                    "m_mTransform": {
+                        "type": "SMatrix43",
+                        "value": {
+                            "rotation": {
+                                "x": -27.04463162529792,
+                                "y": -18.218340950393973,
+                                "z": 3.368550505719474
+                            },
+                            "position": {
+                                "x": -7.068988800048828,
+                                "y": -22.241310119628906,
+                                "z": 29.063880920410156
+                            }
+                        }
+                    },
+                    "m_sId": {
+                        "type": "ZGuid",
+                        "value": "6d198c-f76e-4256-b740-deb90a67f526"
+                    },
+                    "m_eRoomBehaviour": {
+                        "type": "ZSpatialEntity.ERoomBehaviour",
+                        "value": "ROOM_DYNAMIC"
+                    },
+                    "m_bVisible": {
+                        "type": "bool",
+                        "value": false
+                    },
+                    "SwayTime": {
+                        "type": "int32",
+                        "value": 5
+                    }
+                },
+                "postInitProperties": {
+                    "m_eidParent": {
+                        "type": "SEntityTemplateReference",
+                        "value": "fffffffffffffffe"
+                    }
+                },
+                "editorOnly": false,
+                "platformSpecificPropertyValues": [],
+                "events": [
+                    {
+                        "onEvent": "OnBroken",
+                        "shouldTrigger": "MakeVisible",
+                        "onEntity": "abcd7bfbb1d73d95"
+                    },
+                    {
+                        "onEvent": "OnBroken",
+                        "shouldTrigger": "Release",
+                        "onEntity": "abcd7bfbb1d73d95"
+                    }
+                ]
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/abcd74dcb516f7cc",
+            "value": {
+                "parent": "abcddc9910e81f2e",
+                "name": "SetPiece_EasterElk16",
+                "template": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entitytype",
+                "blueprint": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entityblueprint",
+                "properties": {
+                    "m_mTransform": {
+                        "type": "SMatrix43",
+                        "value": {
+                            "rotation": {
+                                "x": -27.04463162529792,
+                                "y": -18.218340950393973,
+                                "z": 3.368550505719474
+                            },
+                            "position": {
+                                "x": -12.174619674682617,
+                                "y": 14.512100219726563,
+                                "z": 27.214950561523438
+                            }
+                        }
+                    },
+                    "m_sId": {
+                        "type": "ZGuid",
+                        "value": "e9ca7ee3-2dd-4fbc-889c-02a256675435"
+                    },
+                    "m_eRoomBehaviour": {
+                        "type": "ZSpatialEntity.ERoomBehaviour",
+                        "value": "ROOM_DYNAMIC"
+                    },
+                    "m_bVisible": {
+                        "type": "bool",
+                        "value": false
+                    },
+                    "SwayTime": {
+                        "type": "int32",
+                        "value": 5
+                    }
+                },
+                "postInitProperties": {
+                    "m_eidParent": {
+                        "type": "SEntityTemplateReference",
+                        "value": "fffffffffffffffe"
+                    }
+                },
+                "editorOnly": false,
+                "platformSpecificPropertyValues": [],
+                "events": [
+                    {
+                        "onEvent": "OnBroken",
+                        "shouldTrigger": "MakeVisible",
+                        "onEntity": "abcdfa1a08a19ff3"
+                    },
+                    {
+                        "onEvent": "OnBroken",
+                        "shouldTrigger": "Release",
+                        "onEntity": "abcdfa1a08a19ff3"
+                    }
+                ]
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/abcd7bfc98085940",
+            "value": {
+                "parent": "abcddc9910e81f2e",
+                "name": "SetPiece_EasterElk17",
+                "template": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entitytype",
+                "blueprint": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entityblueprint",
+                "properties": {
+                    "m_mTransform": {
+                        "type": "SMatrix43",
+                        "value": {
+                            "rotation": {
+                                "x": -27.04463162529792,
+                                "y": -18.218340950393973,
+                                "z": 3.368550505719474
+                            },
+                            "position": {
+                                "x": 1.1067509651184082,
+                                "y": -16.190160751342773,
+                                "z": 29.063880920410156
+                            }
+                        }
+                    },
+                    "m_sId": {
+                        "type": "ZGuid",
+                        "value": "2637225f-b0d7-47c1-86c0-4a61ec74e198"
+                    },
+                    "m_eRoomBehaviour": {
+                        "type": "ZSpatialEntity.ERoomBehaviour",
+                        "value": "ROOM_DYNAMIC"
+                    },
+                    "m_bVisible": {
+                        "type": "bool",
+                        "value": false
+                    },
+                    "SwayTime": {
+                        "type": "int32",
+                        "value": 5
+                    }
+                },
+                "postInitProperties": {
+                    "m_eidParent": {
+                        "type": "SEntityTemplateReference",
+                        "value": "fffffffffffffffe"
+                    }
+                },
+                "editorOnly": false,
+                "platformSpecificPropertyValues": []
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/abcd1daa57c9f44a",
+            "value": {
+                "parent": "abcddc9910e81f2e",
+                "name": "SetPiece_EasterElk18",
+                "template": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entitytype",
+                "blueprint": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entityblueprint",
+                "properties": {
+                    "m_mTransform": {
+                        "type": "SMatrix43",
+                        "value": {
+                            "rotation": {
+                                "x": -58.57865440553387,
+                                "y": -50.05677530864603,
+                                "z": -64.90276493333346
+                            },
+                            "position": {
+                                "x": 27.20953941345215,
+                                "y": -8.818918228149414,
+                                "z": 27.099609375
+                            }
+                        }
+                    },
+                    "m_sId": {
+                        "type": "ZGuid",
+                        "value": "d88401e7-a7da-4574-ab2f-dd3f60425dcc"
+                    },
+                    "m_eRoomBehaviour": {
+                        "type": "ZSpatialEntity.ERoomBehaviour",
+                        "value": "ROOM_DYNAMIC"
+                    },
+                    "m_bVisible": {
+                        "type": "bool",
+                        "value": false
+                    },
+                    "SwayTime": {
+                        "type": "int32",
+                        "value": 5
+                    },
+                    "m_eidParent": {
+                        "type": "SEntityTemplateReference",
+                        "value": "fffffffffffffffe"
+                    }
+                },
+                "postInitProperties": {},
+                "editorOnly": false,
+                "platformSpecificPropertyValues": [],
+                "events": [
+                    {
+                        "onEvent": "OnBroken",
+                        "shouldTrigger": "Start",
+                        "onEntity": "abcd8ee617d43428"
+                    }
+                ]
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/abcd8faa6c33bffa",
+            "value": {
+                "parent": "abcddc9910e81f2e",
+                "name": "SetPiece_EasterElk19",
+                "template": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entitytype",
+                "blueprint": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entityblueprint",
+                "properties": {
+                    "m_mTransform": {
+                        "type": "SMatrix43",
+                        "value": {
+                            "rotation": {
+                                "x": -58.57865440553387,
+                                "y": -50.05677530864603,
+                                "z": -64.90276493333346
+                            },
+                            "position": {
+                                "x": 30.104280471801758,
+                                "y": 10.413220405578613,
+                                "z": 27.03668975830078
+                            }
+                        }
+                    },
+                    "m_sId": {
+                        "type": "ZGuid",
+                        "value": "d9ece185-fa21-497d-b808-dae5a974b499"
+                    },
+                    "m_eRoomBehaviour": {
+                        "type": "ZSpatialEntity.ERoomBehaviour",
+                        "value": "ROOM_DYNAMIC"
+                    },
+                    "m_bVisible": {
+                        "type": "bool",
+                        "value": false
+                    },
+                    "SwayTime": {
+                        "type": "int32",
+                        "value": 5
+                    },
+                    "m_eidParent": {
+                        "type": "SEntityTemplateReference",
+                        "value": "fffffffffffffffe"
+                    }
+                },
+                "postInitProperties": {},
+                "editorOnly": false,
+                "platformSpecificPropertyValues": [],
+                "events": [
+                    {
+                        "onEvent": "OnBroken",
+                        "shouldTrigger": "Start",
+                        "onEntity": "abcdec5478e0cd87"
+                    }
+                ]
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/abcd2a31b2a424d0",
+            "value": {
+                "parent": "abcddc9910e81f2e",
+                "name": "SetPiece_EasterElk20",
+                "template": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entitytype",
+                "blueprint": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entityblueprint",
+                "properties": {
+                    "m_mTransform": {
+                        "type": "SMatrix43",
+                        "value": {
+                            "rotation": {
+                                "x": -58.57865440553387,
+                                "y": -50.05677530864603,
+                                "z": -64.90276493333346
+                            },
+                            "position": {
+                                "x": 22.258310317993164,
+                                "y": 36.5880012512207,
+                                "z": 27.099609375
+                            }
+                        }
+                    },
+                    "m_sId": {
+                        "type": "ZGuid",
+                        "value": "cd178110-15c7-40f8-9f07-b81821140861"
+                    },
+                    "m_eRoomBehaviour": {
+                        "type": "ZSpatialEntity.ERoomBehaviour",
+                        "value": "ROOM_DYNAMIC"
+                    },
+                    "m_bVisible": {
+                        "type": "bool",
+                        "value": false
+                    },
+                    "SwayTime": {
+                        "type": "int32",
+                        "value": 5
+                    }
+                },
+                "postInitProperties": {
+                    "m_eidParent": {
+                        "type": "SEntityTemplateReference",
+                        "value": "fffffffffffffffe"
+                    }
+                },
+                "editorOnly": false,
+                "platformSpecificPropertyValues": [],
+                "events": [
+                    {
+                        "onEvent": "OnBroken",
+                        "shouldTrigger": "Start",
+                        "onEntity": "abcd33ba25f5dcf4"
+                    }
+                ]
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/abcd361668cd8afc",
+            "value": {
+                "parent": "abcddc9910e81f2e",
+                "name": "SetPiece_EasterElk21",
+                "template": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entitytype",
+                "blueprint": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_suspended_hanging_moose.entitytemplate].pc_entityblueprint",
+                "properties": {
+                    "m_mTransform": {
+                        "type": "SMatrix43",
+                        "value": {
+                            "rotation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": -176.96241668430574
+                            },
+                            "position": {
+                                "x": -11.79541015625,
+                                "y": -5.84995698928833,
+                                "z": 24.022769927978516
+                            }
+                        }
+                    },
+                    "m_sId": {
+                        "type": "ZGuid",
+                        "value": "9f0a346b-7c26-4f8d-a872-764f993e6d88"
+                    },
+                    "m_eRoomBehaviour": {
+                        "type": "ZSpatialEntity.ERoomBehaviour",
+                        "value": "ROOM_DYNAMIC"
+                    },
+                    "m_bVisible": {
+                        "type": "bool",
+                        "value": false
+                    },
+                    "SwayTime": {
+                        "type": "int32",
+                        "value": 5
+                    },
+                    "m_eidParent": {
+                        "type": "SEntityTemplateReference",
+                        "value": "fffffffffffffffe"
+                    }
+                },
+                "postInitProperties": {},
+                "editorOnly": false,
+                "platformSpecificPropertyValues": [],
+                "events": [
+                    {
+                        "onEvent": "OnBroken",
+                        "shouldTrigger": "MakeVisible",
+                        "onEntity": "abcd91a086b40682"
+                    },
+                    {
+                        "onEvent": "OnBroken",
+                        "shouldTrigger": "Release",
+                        "onEntity": "abcd91a086b40682"
+                    }
+                ]
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/abcd1ac6d1c70996",
+            "value": {
+                "parent": "abcddc9910e81f2e",
+                "name": "TimerRandom",
+                "template": "[assembly:/_pro/design/logic.template?/timerrandom.entitytemplate].pc_entitytype",
+                "blueprint": "[assembly:/_pro/design/logic.template?/timerrandom.entitytemplate].pc_entityblueprint",
+                "properties": {
+                    "m_fMinTime": {
+                        "type": "float32",
+                        "value": 0
+                    },
+                    "m_fMaxTime": {
+                        "type": "float32",
+                        "value": 5
+                    },
+                    "m_bEnabled": {
+                        "type": "bool",
+                        "value": false
+                    }
+                },
+                "postInitProperties": {},
+                "editorOnly": false,
+                "platformSpecificPropertyValues": [],
+                "events": [
+                    {
+                        "onEvent": "TimeOut",
+                        "shouldTrigger": "Release",
+                        "onEntity": "abcdd2cec21a864c"
+                    },
+                    {
+                        "onEvent": "TimeOut",
+                        "shouldTrigger": "MakeVisible",
+                        "onEntity": "abcdd2cec21a864c"
+                    },
+                    {
+                        "onEvent": "TimeOut",
+                        "shouldTrigger": "Stop",
+                        "onEntity": "abcd1ac6d1c70996"
+                    }
+                ]
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/abcdea8f48b78c8a",
+            "value": {
+                "parent": "abcddc9910e81f2e",
+                "name": "TimerRandom01",
+                "template": "[assembly:/_pro/design/logic.template?/timerrandom.entitytemplate].pc_entitytype",
+                "blueprint": "[assembly:/_pro/design/logic.template?/timerrandom.entitytemplate].pc_entityblueprint",
+                "properties": {
+                    "m_fMinTime": {
+                        "type": "float32",
+                        "value": 0
+                    },
+                    "m_fMaxTime": {
+                        "type": "float32",
+                        "value": 5
+                    },
+                    "m_bEnabled": {
+                        "type": "bool",
+                        "value": false
+                    }
+                },
+                "postInitProperties": {},
+                "editorOnly": false,
+                "platformSpecificPropertyValues": [],
+                "events": [
+                    {
+                        "onEvent": "TimeOut",
+                        "shouldTrigger": "MakeVisible",
+                        "onEntity": "abcdfbe8c7bb55fe"
+                    },
+                    {
+                        "onEvent": "TimeOut",
+                        "shouldTrigger": "Release",
+                        "onEntity": "abcdfbe8c7bb55fe"
+                    },
+                    {
+                        "onEvent": "TimeOut",
+                        "shouldTrigger": "Stop",
+                        "onEntity": "abcdea8f48b78c8a"
+                    }
+                ]
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/abcde7a669ac309d",
+            "value": {
+                "parent": "abcddc9910e81f2e",
+                "name": "TimerRandom02",
+                "template": "[assembly:/_pro/design/logic.template?/timerrandom.entitytemplate].pc_entitytype",
+                "blueprint": "[assembly:/_pro/design/logic.template?/timerrandom.entitytemplate].pc_entityblueprint",
+                "properties": {
+                    "m_fMinTime": {
+                        "type": "float32",
+                        "value": 0
+                    },
+                    "m_fMaxTime": {
+                        "type": "float32",
+                        "value": 5
+                    },
+                    "m_bEnabled": {
+                        "type": "bool",
+                        "value": false
+                    }
+                },
+                "postInitProperties": {},
+                "editorOnly": false,
+                "platformSpecificPropertyValues": [],
+                "events": [
+                    {
+                        "onEvent": "TimeOut",
+                        "shouldTrigger": "Release",
+                        "onEntity": "abcd0bbcfecbb6c7"
+                    },
+                    {
+                        "onEvent": "TimeOut",
+                        "shouldTrigger": "MakeVisible",
+                        "onEntity": "abcd0bbcfecbb6c7"
+                    },
+                    {
+                        "onEvent": "TimeOut",
+                        "shouldTrigger": "Stop",
+                        "onEntity": "abcde7a669ac309d"
+                    }
+                ]
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/abcda1c58daf4258",
+            "value": {
+                "parent": "abcddc9910e81f2e",
+                "name": "TimerRandom03",
+                "template": "[assembly:/_pro/design/logic.template?/timerrandom.entitytemplate].pc_entitytype",
+                "blueprint": "[assembly:/_pro/design/logic.template?/timerrandom.entitytemplate].pc_entityblueprint",
+                "properties": {
+                    "m_fMinTime": {
+                        "type": "float32",
+                        "value": 0
+                    },
+                    "m_fMaxTime": {
+                        "type": "float32",
+                        "value": 5
+                    },
+                    "m_bEnabled": {
+                        "type": "bool",
+                        "value": false
+                    }
+                },
+                "postInitProperties": {},
+                "editorOnly": false,
+                "platformSpecificPropertyValues": [],
+                "events": [
+                    {
+                        "onEvent": "TimeOut",
+                        "shouldTrigger": "Release",
+                        "onEntity": "abcdb4085afdff8f"
+                    },
+                    {
+                        "onEvent": "TimeOut",
+                        "shouldTrigger": "MakeVisible",
+                        "onEntity": "abcdb4085afdff8f"
+                    },
+                    {
+                        "onEvent": "TimeOut",
+                        "shouldTrigger": "Stop",
+                        "onEntity": "abcda1c58daf4258"
+                    }
+                ]
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/abcd6627f00aa680",
+            "value": {
+                "parent": "abcddc9910e81f2e",
+                "name": "TimerRandom04",
+                "template": "[assembly:/_pro/design/logic.template?/timerrandom.entitytemplate].pc_entitytype",
+                "blueprint": "[assembly:/_pro/design/logic.template?/timerrandom.entitytemplate].pc_entityblueprint",
+                "properties": {
+                    "m_fMinTime": {
+                        "type": "float32",
+                        "value": 5
+                    },
+                    "m_fMaxTime": {
+                        "type": "float32",
+                        "value": 8
+                    },
+                    "m_bEnabled": {
+                        "type": "bool",
+                        "value": false
+                    }
+                },
+                "postInitProperties": {},
+                "editorOnly": false,
+                "platformSpecificPropertyValues": [],
+                "events": [
+                    {
+                        "onEvent": "TimeOut",
+                        "shouldTrigger": "MakeVisible",
+                        "onEntity": "abcd2a31b2a424d0"
+                    },
+                    {
+                        "onEvent": "TimeOut",
+                        "shouldTrigger": "Release",
+                        "onEntity": "abcd2a31b2a424d0"
+                    },
+                    {
+                        "onEvent": "TimeOut",
+                        "shouldTrigger": "Stop",
+                        "onEntity": "abcd6627f00aa680"
+                    }
+                ]
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/abcd33ba25f5dcf4",
+            "value": {
+                "parent": "abcddc9910e81f2e",
+                "name": "TimerRandom05",
+                "template": "[assembly:/_pro/design/logic.template?/timerrandom.entitytemplate].pc_entitytype",
+                "blueprint": "[assembly:/_pro/design/logic.template?/timerrandom.entitytemplate].pc_entityblueprint",
+                "properties": {
+                    "m_fMinTime": {
+                        "type": "float32",
+                        "value": 0
+                    },
+                    "m_fMaxTime": {
+                        "type": "float32",
+                        "value": 5
+                    },
+                    "m_bEnabled": {
+                        "type": "bool",
+                        "value": false
+                    }
+                },
+                "postInitProperties": {},
+                "editorOnly": false,
+                "platformSpecificPropertyValues": [],
+                "events": [
+                    {
+                        "onEvent": "TimeOut",
+                        "shouldTrigger": "Stop",
+                        "onEntity": "abcd33ba25f5dcf4"
+                    },
+                    {
+                        "onEvent": "TimeOut",
+                        "shouldTrigger": "MakeVisible",
+                        "onEntity": "abcd9f39098a0320"
+                    },
+                    {
+                        "onEvent": "TimeOut",
+                        "shouldTrigger": "Release",
+                        "onEntity": "abcd9f39098a0320"
+                    }
+                ]
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/abcd28f910394f62",
+            "value": {
+                "parent": "abcddc9910e81f2e",
+                "name": "TimerRandom06",
+                "template": "[assembly:/_pro/design/logic.template?/timerrandom.entitytemplate].pc_entitytype",
+                "blueprint": "[assembly:/_pro/design/logic.template?/timerrandom.entitytemplate].pc_entityblueprint",
+                "properties": {
+                    "m_fMinTime": {
+                        "type": "float32",
+                        "value": 0
+                    },
+                    "m_fMaxTime": {
+                        "type": "float32",
+                        "value": 3
+                    },
+                    "m_bEnabled": {
+                        "type": "bool",
+                        "value": false
+                    }
+                },
+                "postInitProperties": {},
+                "editorOnly": false,
+                "platformSpecificPropertyValues": [],
+                "events": [
+                    {
+                        "onEvent": "TimeOut",
+                        "shouldTrigger": "Stop",
+                        "onEntity": "abcd28f910394f62"
+                    },
+                    {
+                        "onEvent": "TimeOut",
+                        "shouldTrigger": "MakeVisible",
+                        "onEntity": "abcdb56ce920205a"
+                    },
+                    {
+                        "onEvent": "TimeOut",
+                        "shouldTrigger": "Release",
+                        "onEntity": "abcdb56ce920205a"
+                    }
+                ]
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/abcd597edbd794a9",
+            "value": {
+                "parent": "abcddc9910e81f2e",
+                "name": "TimerRandom07",
+                "template": "[assembly:/_pro/design/logic.template?/timerrandom.entitytemplate].pc_entitytype",
+                "blueprint": "[assembly:/_pro/design/logic.template?/timerrandom.entitytemplate].pc_entityblueprint",
+                "properties": {
+                    "m_fMinTime": {
+                        "type": "float32",
+                        "value": 5
+                    },
+                    "m_fMaxTime": {
+                        "type": "float32",
+                        "value": 8
+                    },
+                    "m_bEnabled": {
+                        "type": "bool",
+                        "value": false
+                    }
+                },
+                "postInitProperties": {},
+                "editorOnly": false,
+                "platformSpecificPropertyValues": [],
+                "events": [
+                    {
+                        "onEvent": "TimeOut",
+                        "shouldTrigger": "Stop",
+                        "onEntity": "abcd597edbd794a9"
+                    },
+                    {
+                        "onEvent": "TimeOut",
+                        "shouldTrigger": "MakeVisible",
+                        "onEntity": "abcd0443ae850fd7"
+                    },
+                    {
+                        "onEvent": "TimeOut",
+                        "shouldTrigger": "Release",
+                        "onEntity": "abcd0443ae850fd7"
+                    }
+                ]
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/abcda71ea08db6ca",
+            "value": {
+                "parent": "abcddc9910e81f2e",
+                "name": "TimerRandom08",
+                "template": "[assembly:/_pro/design/logic.template?/timerrandom.entitytemplate].pc_entitytype",
+                "blueprint": "[assembly:/_pro/design/logic.template?/timerrandom.entitytemplate].pc_entityblueprint",
+                "properties": {
+                    "m_fMinTime": {
+                        "type": "float32",
+                        "value": 0
+                    },
+                    "m_fMaxTime": {
+                        "type": "float32",
+                        "value": 3
+                    },
+                    "m_bEnabled": {
+                        "type": "bool",
+                        "value": false
+                    }
+                },
+                "postInitProperties": {},
+                "editorOnly": false,
+                "platformSpecificPropertyValues": [],
+                "events": [
+                    {
+                        "onEvent": "TimeOut",
+                        "shouldTrigger": "Stop",
+                        "onEntity": "abcda71ea08db6ca"
+                    },
+                    {
+                        "onEvent": "TimeOut",
+                        "shouldTrigger": "MakeVisible",
+                        "onEntity": "abcd361668cd8afc"
+                    },
+                    {
+                        "onEvent": "TimeOut",
+                        "shouldTrigger": "Release",
+                        "onEntity": "abcd361668cd8afc"
+                    }
+                ]
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/abcdd63002ff5635",
+            "value": {
+                "parent": "abcddc9910e81f2e",
+                "name": "TimerRandom09",
+                "template": "[assembly:/_pro/design/logic.template?/timerrandom.entitytemplate].pc_entitytype",
+                "blueprint": "[assembly:/_pro/design/logic.template?/timerrandom.entitytemplate].pc_entityblueprint",
+                "properties": {
+                    "m_fMinTime": {
+                        "type": "float32",
+                        "value": 0
+                    },
+                    "m_fMaxTime": {
+                        "type": "float32",
+                        "value": 3
+                    },
+                    "m_bEnabled": {
+                        "type": "bool",
+                        "value": false
+                    }
+                },
+                "postInitProperties": {},
+                "editorOnly": false,
+                "platformSpecificPropertyValues": [],
+                "events": [
+                    {
+                        "onEvent": "TimeOut",
+                        "shouldTrigger": "Stop",
+                        "onEntity": "abcdd63002ff5635"
+                    },
+                    {
+                        "onEvent": "TimeOut",
+                        "shouldTrigger": "MakeVisible",
+                        "onEntity": "abcdb490aa5da410"
+                    },
+                    {
+                        "onEvent": "TimeOut",
+                        "shouldTrigger": "Release",
+                        "onEntity": "abcdb490aa5da410"
+                    }
+                ]
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/abcdec5478e0cd87",
+            "value": {
+                "parent": "abcddc9910e81f2e",
+                "name": "TimerRandom10",
+                "template": "[assembly:/_pro/design/logic.template?/timerrandom.entitytemplate].pc_entitytype",
+                "blueprint": "[assembly:/_pro/design/logic.template?/timerrandom.entitytemplate].pc_entityblueprint",
+                "properties": {
+                    "m_fMinTime": {
+                        "type": "float32",
+                        "value": 0
+                    },
+                    "m_fMaxTime": {
+                        "type": "float32",
+                        "value": 3
+                    },
+                    "m_bEnabled": {
+                        "type": "bool",
+                        "value": false
+                    }
+                },
+                "postInitProperties": {},
+                "editorOnly": false,
+                "platformSpecificPropertyValues": [],
+                "events": [
+                    {
+                        "onEvent": "TimeOut",
+                        "shouldTrigger": "Stop",
+                        "onEntity": "abcdec5478e0cd87"
+                    },
+                    {
+                        "onEvent": "TimeOut",
+                        "shouldTrigger": "MakeVisible",
+                        "onEntity": "abcd211e14d08325"
+                    },
+                    {
+                        "onEvent": "TimeOut",
+                        "shouldTrigger": "Release",
+                        "onEntity": "abcd211e14d08325"
+                    }
+                ]
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/abcd8ee617d43428",
+            "value": {
+                "parent": "abcddc9910e81f2e",
+                "name": "TimerRandom11",
+                "template": "[assembly:/_pro/design/logic.template?/timerrandom.entitytemplate].pc_entitytype",
+                "blueprint": "[assembly:/_pro/design/logic.template?/timerrandom.entitytemplate].pc_entityblueprint",
+                "properties": {
+                    "m_fMinTime": {
+                        "type": "float32",
+                        "value": 0
+                    },
+                    "m_fMaxTime": {
+                        "type": "float32",
+                        "value": 3
+                    },
+                    "m_bEnabled": {
+                        "type": "bool",
+                        "value": false
+                    }
+                },
+                "postInitProperties": {},
+                "editorOnly": false,
+                "platformSpecificPropertyValues": [],
+                "events": [
+                    {
+                        "onEvent": "TimeOut",
+                        "shouldTrigger": "Stop",
+                        "onEntity": "abcd8ee617d43428"
+                    },
+                    {
+                        "onEvent": "TimeOut",
+                        "shouldTrigger": "MakeVisible",
+                        "onEntity": "abcdb78b69fd512c"
+                    },
+                    {
+                        "onEvent": "TimeOut",
+                        "shouldTrigger": "Release",
+                        "onEntity": "abcdb78b69fd512c"
+                    },
+                    {
+                        "onEvent": "TimeOut",
+                        "shouldTrigger": "MakeVisible",
+                        "onEntity": "abcd7bfc98085940"
+                    },
+                    {
+                        "onEvent": "TimeOut",
+                        "shouldTrigger": "Release",
+                        "onEntity": "abcd7bfc98085940"
+                    }
+                ]
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/abcdfc2e306e61fe",
+            "value": {
+                "parent": "abcddc9910e81f2e",
+                "name": "VB_AllHit",
+                "template": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+                "blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+                "properties": {},
+                "postInitProperties": {
+                    "m_aValues": {
+                        "type": "TArray<SEntityTemplateReference>",
+                        "value": [
+                            "abcdf20229bd9aed",
+                            "abcd73468c9beb05",
+                            "abcd9e8b1abc1cc6",
+                            {
+                                "ref": "1cca887f95da76c6",
+                                "externalScene": "[assembly:/_pro/scenes/missions/marrakesh/dressing_embassy.brick].pc_entitytype"
+                            }
+                        ]
+                    }
+                },
+                "editorOnly": false,
+                "platformSpecificPropertyValues": [],
+                "events": [
+                    {
+                        "onEvent": "OnTrue",
+                        "shouldTrigger": "Release",
+                        "onEntity": "abcddf49405abf41"
+                    },
+                    {
+                        "onEvent": "OnTrue",
+                        "shouldTrigger": "MakeVisible",
+                        "onEntity": "abcddf49405abf41"
+                    },
+                    {
+                        "onEvent": "OnTrue",
+                        "shouldTrigger": "Start",
+                        "onEntity": "abcd597edbd794a9"
+                    }
+                ]
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/abcd87268d10bc83",
+            "value": {
+                "parent": "abcddc9910e81f2e",
+                "name": "VB_AllHit01",
+                "template": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+                "blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+                "properties": {
+                    "m_aValues": {
+                        "type": "TArray<SEntityTemplateReference>",
+                        "value": [
+                            {
+                                "ref": "1cca887f95da76c6",
+                                "externalScene": "[assembly:/_pro/scenes/missions/marrakesh/dressing_embassy.brick].pc_entitytype"
+                            }
+                        ]
+                    }
+                },
+                "postInitProperties": {},
+                "editorOnly": false,
+                "platformSpecificPropertyValues": [],
+                "events": [
+                    {
+                        "onEvent": "OnTrue",
+                        "shouldTrigger": "MakeVisible",
+                        "onEntity": "abcdb214cac79f9a"
+                    },
+                    {
+                        "onEvent": "OnTrue",
+                        "shouldTrigger": "MakeVisible",
+                        "onEntity": "abcdecc27d681c13"
+                    },
+                    {
+                        "onEvent": "OnTrue",
+                        "shouldTrigger": "MakeVisible",
+                        "onEntity": "abcdb194459098fe"
+                    }
+                ]
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/abcd9e8b1abc1cc6",
+            "value": {
+                "parent": "abcddc9910e81f2e",
+                "name": "VB_BellHit",
+                "template": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+                "blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+                "properties": {},
+                "postInitProperties": {},
+                "editorOnly": false,
+                "platformSpecificPropertyValues": []
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/abcd73468c9beb05",
+            "value": {
+                "parent": "abcddc9910e81f2e",
+                "name": "VB_BellHit01",
+                "template": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+                "blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+                "properties": {},
+                "postInitProperties": {},
+                "editorOnly": false,
+                "platformSpecificPropertyValues": []
+            }
+        },
+        {
+            "op": "add",
+            "path": "/entities/abcdf20229bd9aed",
+            "value": {
+                "parent": "abcddc9910e81f2e",
+                "name": "VB_BellHit02",
+                "template": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+                "blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+                "properties": {},
+                "postInitProperties": {},
+                "editorOnly": false,
+                "platformSpecificPropertyValues": []
+            }
+        }
+    ],
+    "patchVersion": 4
+}
